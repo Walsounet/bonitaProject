@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <businessObjectModel xmlns="http://documentation.bonitasoft.com/bdm-xml-schema/1.0" modelVersion="1.0" productVersion="7.14.0">
     <businessObjects>
-        <businessObject qualifiedName="database.BusinessObject">
+        <businessObject qualifiedName="com.company.model.ManutencaoProativa">
             <fields>
-                <field type="STRING" length="255" name="attribute" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="titulo" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="descricao" nullable="false" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>
             <indexes/>
         </businessObject>
-        <businessObject qualifiedName="database.Requisito">
+        <businessObject qualifiedName="com.company.model.PedidoDeSuporte">
             <fields>
-                <field type="STRING" length="255" name="attribute" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="titulo" nullable="false" collection="false"/>
+                <field type="TEXT" length="255" name="descricao" nullable="false" collection="false"/>
+                <field type="TEXT" length="255" name="propostaDeResolucao" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="resolvido" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>
