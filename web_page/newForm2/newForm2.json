@@ -2,7 +2,7 @@
   "modelVersion" : "2.2",
   "id" : "newForm2",
   "name" : "newForm2",
-  "lastUpdate" : 1654393285259,
+  "lastUpdate" : 1654618396329,
   "rows" : [
     [
       {
@@ -96,6 +96,18 @@
                 "dimension" : {
                   "type" : "constant",
                   "value" : 12
+                },
+                "labelPosition" : {
+                  "type" : "constant",
+                  "value" : "top"
+                },
+                "labelWidth" : {
+                  "type" : "constant",
+                  "value" : 4
+                },
+                "allowHTML" : {
+                  "type" : "constant",
+                  "value" : true
                 }
               },
               "reference" : "15b57306-e7c0-41dc-8ea7-49245b34d299",
