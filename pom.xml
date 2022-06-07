@@ -5,7 +5,7 @@
   <groupId>com.company</groupId>
   <artifactId>my-project</artifactId>
   <version>0.0.1</version>
-  <name>bonitaProject</name>
+  <name>BonitaProject</name>
   <properties>
     <bonita.runtime.version>7.14.0</bonita.runtime.version>
     <maven-install-plugin.version>3.0.0-M1</maven-install-plugin.version>
@@ -92,6 +92,31 @@
       <groupId>org.codehaus.groovy</groupId>
       <artifactId>groovy-servlet</artifactId>
       <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.bonitasoft.actorfilter</groupId>
+      <artifactId>bonita-actorfilter-user-manager</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.bonitasoft.actorfilter</groupId>
+      <artifactId>bonita-actorfilter-single-user</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.bonitasoft.actorfilter</groupId>
+      <artifactId>bonita-actorfilter-same-task-user</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.bonitasoft.actorfilter</groupId>
+      <artifactId>bonita-actorfilter-custom-user-info</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.bonitasoft.actorfilter</groupId>
+      <artifactId>bonita-actorfilter-initiator-manager</artifactId>
+      <version>1.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.bonitasoft.actorfilter</groupId>
