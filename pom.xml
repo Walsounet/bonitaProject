@@ -5,7 +5,7 @@
   <groupId>com.company</groupId>
   <artifactId>my-project</artifactId>
   <version>0.0.1</version>
-  <name>bonitaProject</name>
+  <name>BonitaProject</name>
   <properties>
     <bonita.runtime.version>7.14.0</bonita.runtime.version>
     <maven-install-plugin.version>3.0.0-M1</maven-install-plugin.version>
@@ -128,11 +128,6 @@
       <artifactId>bdm-client</artifactId>
       <version>1.0.0</version>
       <scope>provided</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.bonitasoft.actorfilter</groupId>
-      <artifactId>bonita-actorfilter-initiator</artifactId>
-      <version>1.0.0</version>
     </dependency>
   </dependencies>
   <build>
