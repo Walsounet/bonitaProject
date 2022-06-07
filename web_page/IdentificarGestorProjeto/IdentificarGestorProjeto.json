@@ -2,7 +2,7 @@
   "modelVersion" : "2.2",
   "id" : "IdentificarGestorProjeto",
   "name" : "IdentificarGestorProjeto",
-  "lastUpdate" : 1654618552103,
+  "lastUpdate" : 1654620675918,
   "rows" : [
     [
       {
@@ -125,7 +125,16 @@
         "dimension" : {
           "xs" : 12
         },
-        "propertyValues" : { },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          }
+        },
         "reference" : "4a709bf4-0c66-442f-adc8-7b4ed273c9b1",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
@@ -213,82 +222,54 @@
               {
                 "type" : "component",
                 "dimension" : {
-                  "md" : 12,
-                  "sm" : 12,
                   "xs" : 12,
+                  "sm" : 12,
+                  "md" : 12,
                   "lg" : 12
                 },
                 "propertyValues" : {
-                  "removeItem" : {
-                    "type" : "variable"
-                  },
-                  "hidden" : {
-                    "type" : "constant",
-                    "value" : false
-                  },
                   "cssClasses" : {
                     "type" : "constant",
                     "value" : ""
                   },
-                  "buttonStyle" : {
+                  "hidden" : {
+                    "type" : "expression",
+                    "value" : ""
+                  },
+                  "disabled" : {
                     "type" : "constant",
-                    "value" : "primary"
+                    "value" : false
                   },
                   "label" : {
                     "type" : "interpolation",
                     "value" : "Submit"
                   },
-                  "dataToSend" : {
-                    "type" : "expression",
-                    "value" : "formOutput"
-                  },
-                  "dataFromError" : {
-                    "type" : "variable",
-                    "value" : "formOutput._submitError"
-                  },
-                  "labelHidden" : {
+                  "alignment" : {
                     "type" : "constant",
-                    "value" : false
+                    "value" : "left"
                   },
-                  "collectionPosition" : {
-                    "type" : "constant"
-                  },
-                  "targetUrlOnSuccess" : {
-                    "type" : "interpolation",
-                    "value" : "/bonita"
+                  "buttonStyle" : {
+                    "type" : "constant",
+                    "value" : "default"
                   },
                   "action" : {
                     "type" : "constant",
                     "value" : "Submit task"
                   },
-                  "collectionToModify" : {
-                    "type" : "variable"
-                  },
-                  "valueToAdd" : {
-                    "type" : "expression"
-                  },
-                  "disabled" : {
-                    "type" : "expression",
-                    "value" : "$form.$invalid"
-                  },
-                  "alignment" : {
-                    "type" : "constant",
-                    "value" : "center"
-                  },
-                  "dimension" : {
-                    "type" : "constant",
-                    "value" : 12
-                  },
                   "assign" : {
                     "type" : "constant",
-                    "value" : true
+                    "value" : false
                   },
                   "url" : {
                     "type" : "interpolation"
                   },
                   "responseStatusCode" : {
                     "type" : "variable",
-                    "value" : "200"
+                    "value" : ""
+                  },
+                  "dataToSend" : {
+                    "type" : "expression",
+                    "value" : "formOutput"
                   },
                   "dataFromSuccess" : {
                     "type" : "variable",
@@ -298,75 +279,35 @@
                     "type" : "constant",
                     "value" : false
                   },
+                  "dataFromError" : {
+                    "type" : "variable",
+                    "value" : "formOutput._submitError"
+                  },
+                  "targetUrlOnSuccess" : {
+                    "type" : "interpolation",
+                    "value" : "/bonita"
+                  },
+                  "collectionToModify" : {
+                    "type" : "variable"
+                  },
                   "modalId" : {
                     "type" : "constant",
                     "value" : ""
+                  },
+                  "collectionPosition" : {
+                    "type" : "constant",
+                    "value" : "Last"
+                  },
+                  "valueToAdd" : {
+                    "type" : "constant"
+                  },
+                  "removeItem" : {
+                    "type" : "variable"
                   }
                 },
-                "reference" : "63e1cf7d-f84c-49b8-b17c-cf3989b41327",
+                "reference" : "ebe39354-ca52-41a2-bd6b-7065f93ef07b",
                 "hasValidationError" : false,
-                "id" : "pbButton",
-                "description" : ""
-              }
-            ],
-            [
-              {
-                "type" : "component",
-                "dimension" : {
-                  "md" : 12,
-                  "sm" : 12,
-                  "xs" : 12,
-                  "lg" : 12
-                },
-                "propertyValues" : {
-                  "allowHTML" : {
-                    "type" : "constant",
-                    "value" : true
-                  },
-                  "allowHtml" : {
-                    "type" : "constant",
-                    "value" : true
-                  },
-                  "labelHidden" : {
-                    "type" : "constant",
-                    "value" : true
-                  },
-                  "hidden" : {
-                    "type" : "expression",
-                    "value" : "!formOutput._submitError.message"
-                  },
-                  "cssClasses" : {
-                    "type" : "constant",
-                    "value" : "alert alert-danger col-lg-6 col-lg-offset-3"
-                  },
-                  "label" : {
-                    "type" : "interpolation"
-                  },
-                  "text" : {
-                    "type" : "interpolation",
-                    "value" : "<strong>Debug message</strong>\n<br/>\n{{formOutput._submitError.message}}\n{{submit_errors_list}}"
-                  },
-                  "alignment" : {
-                    "type" : "constant",
-                    "value" : "left"
-                  },
-                  "dimension" : {
-                    "type" : "constant",
-                    "value" : 12
-                  },
-                  "labelPosition" : {
-                    "type" : "constant",
-                    "value" : "top"
-                  },
-                  "labelWidth" : {
-                    "type" : "constant",
-                    "value" : 4
-                  }
-                },
-                "reference" : "51dab9f5-2017-4580-a35f-940e090a1d29",
-                "hasValidationError" : false,
-                "id" : "pbText",
-                "description" : ""
+                "id" : "pbButton"
               }
             ]
           ]
@@ -444,6 +385,13 @@
         "const myObj = JSON.parse(myJSON);",
         "",
         "return myObj.name;"
+      ],
+      "exposed" : false
+    },
+    "gestores" : {
+      "type" : "json",
+      "value" : [
+        "[\"valor 1\", \"valor 2\", \"valor 3\"]"
       ],
       "exposed" : false
     }
