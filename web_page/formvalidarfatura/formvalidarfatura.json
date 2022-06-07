@@ -2,7 +2,7 @@
   "modelVersion" : "2.2",
   "id" : "formvalidarfatura",
   "name" : "formvalidarfatura",
-  "lastUpdate" : 1654013742039,
+  "lastUpdate" : 1654616228710,
   "rows" : [
     [
       {
@@ -142,10 +142,12 @@
                     ]
                   },
                   "displayedKey" : {
-                    "type" : "constant"
+                    "type" : "expression",
+                    "value" : ""
                   },
                   "returnedKey" : {
-                    "type" : "constant"
+                    "type" : "expression",
+                    "value" : ""
                   },
                   "selectedValue" : {
                     "type" : "variable",
@@ -184,7 +186,7 @@
                   },
                   "label" : {
                     "type" : "interpolation",
-                    "value" : "Submit"
+                    "value" : "Submeter"
                   },
                   "dataToSend" : {
                     "type" : "expression",
