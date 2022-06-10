@@ -7,17 +7,28 @@
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_BjI7xOZqEey3bNbyuPYH6Q" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_BjI7xeZqEey3bNbyuPYH6Q" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_BjI7xuZqEey3bNbyuPYH6Q" name="" content="" returnTypeFixed="true"/>
+          <operations xmi:type="expression:Operation" xmi:id="_OM4OMOkBEeyYfYtMfXQflQ">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_OM4OMekBEeyYfYtMfXQflQ" name="gestorProjeto" content="gestorProjeto" type="TYPE_VARIABLE" returnType="com.company.model.GestaoProjeto">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_OM4OMukBEeyYfYtMfXQflQ" name="gestorProjeto" dataType="_BjI8oOZqEey3bNbyuPYH6Q" className="com.company.model.GestaoProjeto"/>
+            </leftOperand>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_OM4OM-kBEeyYfYtMfXQflQ" name="gestorProjetoInput.nomeGestor" content="gestorProjetoInput?.nomeGestor" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_OM4ONOkBEeyYfYtMfXQflQ" name="gestorProjetoInput" type="COMPLEX" createMode="false"/>
+            </rightOperand>
+            <operator xmi:type="expression:Operator" xmi:id="_OM4ONekBEeyYfYtMfXQflQ" type="JAVA_METHOD" expression="setNomeGestor">
+              <inputTypes>java.lang.String</inputTypes>
+            </operator>
+          </operations>
           <loopCondition xmi:type="expression:Expression" xmi:id="_BjI7x-ZqEey3bNbyuPYH6Q" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <loopMaximum xmi:type="expression:Expression" xmi:id="_BjI7yOZqEey3bNbyuPYH6Q" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
           <cardinalityExpression xmi:type="expression:Expression" xmi:id="_BjI7yeZqEey3bNbyuPYH6Q" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_BjI7yuZqEey3bNbyuPYH6Q" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_BjI7y-ZqEey3bNbyuPYH6Q" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_BjI7zOZqEey3bNbyuPYH6Q">
-            <targetForm xmi:type="expression:Expression" xmi:id="_P6vrwOZwEey3bNbyuPYH6Q" name="IdentificarGestorProjeto" content="cc7fc08d-a926-487b-9271-8e4312049252" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_QbuEUOkBEeyYfYtMfXQflQ" name="nomeGestor" content="16a6ed2e-23c3-4336-8087-6f5168a71348" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_BjI7zuZqEey3bNbyuPYH6Q">
-            <inputs xmi:type="process:ContractInput" xmi:id="_DDbMUOZ2Eeyie5L5LmvxwQ" name="gestor">
-              <mapping xmi:type="process:ContractInputMapping" xmi:id="_DDbMUeZ2Eeyie5L5LmvxwQ"/>
+            <inputs xmi:type="process:ContractInput" xmi:id="_OM3nIOkBEeyYfYtMfXQflQ" name="gestorProjetoInput" type="COMPLEX" dataReference="gestorProjeto" createMode="false">
+              <inputs xmi:type="process:ContractInput" xmi:id="_OM3nIekBEeyYfYtMfXQflQ" name="nomeGestor" createMode="false"/>
             </inputs>
           </contract>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_BjI7z-ZqEey3bNbyuPYH6Q" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
@@ -188,6 +199,9 @@
       </data>
       <data xmi:type="process:Data" xmi:id="_BjI8VOZqEey3bNbyuPYH6Q" documentation="Cliente Alertado com Sucesso" name="mensagem" dataType="_BjI8neZqEey3bNbyuPYH6Q">
         <defaultValue xmi:type="expression:Expression" xmi:id="_BjI8VeZqEey3bNbyuPYH6Q" name="" content=""/>
+      </data>
+      <data xmi:type="process:BusinessObjectData" xmi:id="_LPhsQOkBEeyYfYtMfXQflQ" name="gestorProjeto" dataType="_BjI8oOZqEey3bNbyuPYH6Q" className="com.company.model.GestaoProjeto">
+        <defaultValue xmi:type="expression:Expression" xmi:id="_LPhsQekBEeyYfYtMfXQflQ" name="" content="" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Object"/>
       </data>
       <formMapping xmi:type="process:FormMapping" xmi:id="_BjI8VuZqEey3bNbyuPYH6Q" type="NONE">
         <targetForm xmi:type="expression:Expression" xmi:id="_BjI8V-ZqEey3bNbyuPYH6Q" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
