@@ -114,7 +114,9 @@
           "xs" : 12
         },
         "propertyValues" : { },
+
         "reference" : "0013ba6e-7b1c-4c66-8c88-15d1c5066e6f",
+
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -123,6 +125,7 @@
             "xs" : 12
           },
           "propertyValues" : { },
+
           "reference" : "ebef5dd8-981a-4606-bd17-dc2e67d5c633",
           "hasValidationError" : false,
           "id" : "pbContainer",
@@ -151,6 +154,7 @@
                   },
                   "text" : {
                     "type" : "interpolation",
+
                     "value" : "Gestor Projeto"
                   },
                   "alignment" : {
@@ -162,6 +166,7 @@
                     "value" : 12
                   }
                 },
+
                 "reference" : "3f353432-56b6-497e-b360-ec73f864f4a6",
                 "hasValidationError" : false,
                 "id" : "pbTitle",
@@ -194,6 +199,7 @@
                     "value" : 12
                   }
                 },
+
                 "reference" : "ff15270a-b0ab-4a52-b55f-53afd65c1968",
                 "hasValidationError" : false,
                 "id" : "pbContainer",
@@ -216,6 +222,7 @@
                           "type" : "constant",
                           "value" : false
                         },
+
                         "labelPosition" : {
                           "type" : "constant",
                           "value" : "top"
@@ -290,6 +297,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
+
                           "value" : "Reuniao Comercial"
                         },
                         "dimension" : {
@@ -298,6 +306,7 @@
                         },
                         "value" : {
                           "type" : "variable",
+
                           "value" : "gestorProjeto.reuniaoComercial"
                         }
                       },
@@ -360,6 +369,7 @@
                   },
                   "action" : {
                     "type" : "constant",
+
                     "value" : "Submit task"
                   },
                   "collectionToModify" : {
@@ -381,6 +391,7 @@
                     "value" : 12
                   }
                 },
+
                 "reference" : "a65cea54-4667-4be4-8d03-08e5c37b882a",
                 "hasValidationError" : false,
                 "id" : "pbButton",
@@ -433,6 +444,7 @@
                     "value" : 12
                   }
                 },
+
                 "reference" : "0812bd91-d931-4040-bdfe-92c86325d024",
                 "hasValidationError" : false,
                 "id" : "pbText",
@@ -446,6 +458,7 @@
   ],
   "assets" : [
     {
+
       "id" : "02c80707-fc18-4690-98e5-dda200df340f",
       "name" : "localization.json",
       "type" : "json",
@@ -453,6 +466,7 @@
       "external" : false
     },
     {
+
       "id" : "1cb2dca8-2ab4-4c9e-bbfd-3030950aa3eb",
       "name" : "style.css",
       "type" : "css",
@@ -462,6 +476,7 @@
   ],
   "inactiveAssets" : [ ],
   "variables" : {
+
     "task" : {
       "type" : "url",
       "value" : [
@@ -487,6 +502,7 @@
     "formOutput" : {
       "type" : "expression",
       "value" : [
+
         "if( $data.gestorProjeto ){",
         "\treturn {",
         "\t\t//map gestorProjeto variable to expected task contract input",
