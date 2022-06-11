@@ -18,6 +18,14 @@
             <queries/>
             <indexes/>
         </businessObject>
+        <businessObject qualifiedName="com.company.model.Faturas">
+            <fields>
+                <field type="BOOLEAN" length="255" name="validada" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
         <businessObject qualifiedName="com.company.model.GestaoProjeto">
             <fields>
                 <field type="STRING" length="255" name="nomeGestor" nullable="true" collection="false"/>

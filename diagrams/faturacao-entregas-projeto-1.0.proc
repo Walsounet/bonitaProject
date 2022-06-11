@@ -22,6 +22,11 @@
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_VjZIkuZrEeydL51yHrjXaw" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_VjZIkeZrEeydL51yHrjXaw" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_VjZIk-ZrEeydL51yHrjXaw" name="" content="" returnTypeFixed="true"/>
+          <operations xmi:type="expression:Operation" xmi:id="_KEeZgOlxEeyCaoUWZcV7AA">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_KEeZgelxEeyCaoUWZcV7AA"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_KEeZgulxEeyCaoUWZcV7AA" content=""/>
+            <operator xmi:type="expression:Operator" xmi:id="_KEeZg-lxEeyCaoUWZcV7AA" type="ASSIGNMENT"/>
+          </operations>
           <loopCondition xmi:type="expression:Expression" xmi:id="_VjZIlOZrEeydL51yHrjXaw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <loopMaximum xmi:type="expression:Expression" xmi:id="_VjZIleZrEeydL51yHrjXaw" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
           <cardinalityExpression xmi:type="expression:Expression" xmi:id="_VjZIluZrEeydL51yHrjXaw" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
