@@ -85,7 +85,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_cE_cWODkEey9CfcpJrUsUw" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_cE_cV-DkEey9CfcpJrUsUw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_d_ExKeDpEey9CfcpJrUsUw">
-            <targetForm xmi:type="expression:Expression" xmi:id="_b52WgOZ6EeyiiLJluEZOGQ" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_ZiauAORqEeyzkeXKg8z7vw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_d_ExKODpEey9CfcpJrUsUw"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_d_FYMODpEey9CfcpJrUsUw" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
@@ -97,10 +97,12 @@
         </elements>
       </elements>
       <data xmi:type="process:BusinessObjectData" xmi:id="_JWSV8ODuEey9CfcpJrUsUw" name="pedidoDeSuporte" dataType="_5aInBODjEey9CfcpJrUsUw" className="com.company.model.PedidoDeSuporte">
-        <defaultValue xmi:type="expression:Expression" xmi:id="_MeYIQuDuEey9CfcpJrUsUw" name="" content="" interpreter="GROOVY"/>
+        <defaultValue xmi:type="expression:Expression" xmi:id="_MeYIQuDuEey9CfcpJrUsUw" name="initPedidoDeSuporte()" content="def pedidoDeSuporteVar = new com.company.model.PedidoDeSuporte()&#xD;&#xA;pedidoDeSuporteVar.titulo = pedidoDeSuporteInput?.titulo&#xD;&#xA;pedidoDeSuporteVar.descricao = pedidoDeSuporteInput?.descricao&#xD;&#xA;return pedidoDeSuporteVar" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="com.company.model.PedidoDeSuporte">
+          <referencedElements xmi:type="process:ContractInput" xmi:id="_MeYIQ-DuEey9CfcpJrUsUw" name="pedidoDeSuporteInput" type="COMPLEX"/>
+        </defaultValue>
       </data>
       <formMapping xmi:type="process:FormMapping" xmi:id="_5aIm5ODjEey9CfcpJrUsUw">
-        <targetForm xmi:type="expression:Expression" xmi:id="_b52WgeZ6EeyiiLJluEZOGQ" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+        <targetForm xmi:type="expression:Expression" xmi:id="_ZiauAeRqEeyzkeXKg8z7vw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
       </formMapping>
       <overviewFormMapping xmi:type="process:FormMapping" xmi:id="_5aIm5uDjEey9CfcpJrUsUw">
         <targetForm xmi:type="expression:Expression" xmi:id="_5aIm5-DjEey9CfcpJrUsUw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
@@ -133,7 +135,18 @@
       </connections>
       <actors xmi:type="process:Actor" xmi:id="_5aIm6-DjEey9CfcpJrUsUw" documentation="This is an example of actor that is mapped to any ACME users" name="Employee actor" initiator="true"/>
       <actors xmi:type="process:Actor" xmi:id="_k6CYIODpEey9CfcpJrUsUw" name="Cliente"/>
-      <contract xmi:type="process:Contract" xmi:id="_5aIm7ODjEey9CfcpJrUsUw"/>
+      <contract xmi:type="process:Contract" xmi:id="_5aIm7ODjEey9CfcpJrUsUw">
+        <inputs xmi:type="process:ContractInput" xmi:id="_MeXhMODuEey9CfcpJrUsUw" name="pedidoDeSuporteInput" type="COMPLEX" dataReference="pedidoDeSuporte">
+          <inputs xmi:type="process:ContractInput" xmi:id="_MeXhMeDuEey9CfcpJrUsUw" name="titulo"/>
+          <inputs xmi:type="process:ContractInput" xmi:id="_MeXhMuDuEey9CfcpJrUsUw" name="descricao"/>
+        </inputs>
+        <constraints xmi:type="process:ContractConstraint" xmi:id="_MeYIQODuEey9CfcpJrUsUw" expression="pedidoDeSuporteInput?.titulo != null" errorMessage="titulo is mandatory for PedidoDeSuporte" name="mandatory_pedidoDeSuporteInput_titulo">
+          <inputNames>pedidoDeSuporteInput</inputNames>
+        </constraints>
+        <constraints xmi:type="process:ContractConstraint" xmi:id="_MeYIQeDuEey9CfcpJrUsUw" expression="pedidoDeSuporteInput?.descricao != null" errorMessage="descricao is mandatory for PedidoDeSuporte" name="mandatory_pedidoDeSuporteInput_descricao">
+          <inputNames>pedidoDeSuporteInput</inputNames>
+        </constraints>
+      </contract>
       <searchIndexes xmi:type="process:SearchIndex" xmi:id="_5aIm7eDjEey9CfcpJrUsUw">
         <name xmi:type="expression:Expression" xmi:id="_5aIm7uDjEey9CfcpJrUsUw" content="" returnTypeFixed="true"/>
         <value xmi:type="expression:Expression" xmi:id="_5aIm7-DjEey9CfcpJrUsUw" content="" returnTypeFixed="true"/>
