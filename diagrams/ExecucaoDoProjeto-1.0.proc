@@ -7,6 +7,17 @@
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_BjI7xOZqEey3bNbyuPYH6Q" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_BjI7xeZqEey3bNbyuPYH6Q" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_BjI7xuZqEey3bNbyuPYH6Q" name="" content="" returnTypeFixed="true"/>
+          <operations xmi:type="expression:Operation" xmi:id="_iP8ToOmgEeyhraC4LK3udw">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_iP8ToemgEeyhraC4LK3udw" name="gestorProjeto" content="gestorProjeto" type="TYPE_VARIABLE" returnType="com.company.model.GestaoProjeto">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_iqOb4OmgEeyhraC4LK3udw" name="gestorProjeto" dataType="_BjI8oOZqEey3bNbyuPYH6Q" className="com.company.model.GestaoProjeto"/>
+            </leftOperand>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_iP8ToumgEeyhraC4LK3udw" name="newScript()" content="gestorProjeto.nomeGestor" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_p9VdIOmgEeyhraC4LK3udw" name="gestorProjeto" dataType="_BjI8oOZqEey3bNbyuPYH6Q" className="com.company.model.GestaoProjeto"/>
+            </rightOperand>
+            <operator xmi:type="expression:Operator" xmi:id="_iP8To-mgEeyhraC4LK3udw" type="JAVA_METHOD" expression="setNomeGestor">
+              <inputTypes>java.lang.String</inputTypes>
+            </operator>
+          </operations>
           <loopCondition xmi:type="expression:Expression" xmi:id="_BjI7x-ZqEey3bNbyuPYH6Q" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <loopMaximum xmi:type="expression:Expression" xmi:id="_BjI7yOZqEey3bNbyuPYH6Q" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
           <cardinalityExpression xmi:type="expression:Expression" xmi:id="_BjI7yeZqEey3bNbyuPYH6Q" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
@@ -263,7 +274,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_BjI8QeZqEey3bNbyuPYH6Q" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_BjI8QuZqEey3bNbyuPYH6Q" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_BjI8Q-ZqEey3bNbyuPYH6Q">
-            <targetForm xmi:type="expression:Expression" xmi:id="_5bBvoOmfEeyhraC4LK3udw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_rjFS8OmgEeyhraC4LK3udw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_BjI8ReZqEey3bNbyuPYH6Q"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_BjI8RuZqEey3bNbyuPYH6Q" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
@@ -487,7 +498,7 @@
       <styles xmi:type="notation:FontStyle" xmi:id="_BjI87uZqEey3bNbyuPYH6Q" fontName=".AppleSystemUIFont"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_BjI87-ZqEey3bNbyuPYH6Q"/>
       <styles xmi:type="notation:FillStyle" xmi:id="_BjI88OZqEey3bNbyuPYH6Q"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BjI88eZqEey3bNbyuPYH6Q" width="1370" height="250"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BjI88eZqEey3bNbyuPYH6Q" width="1445" height="250"/>
     </children>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_BjI88uZqEey3bNbyuPYH6Q"/>
     <edges xmi:type="notation:Connector" xmi:id="_BjI8-uZqEey3bNbyuPYH6Q" type="4001" element="_BjI8XeZqEey3bNbyuPYH6Q" source="_BjI8qOZqEey3bNbyuPYH6Q" target="_BjI8x-ZqEey3bNbyuPYH6Q" roundedBendpointsRadius="10" routing="Rectilinear">
