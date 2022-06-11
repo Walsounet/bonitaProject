@@ -11,6 +11,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
+
         "reference" : "7cbae5b9-8424-4746-8ba3-a35924c398f6",
         "hasValidationError" : false,
         "id" : "pbContainer",
@@ -50,6 +51,7 @@
                   "value" : 12
                 }
               },
+
               "reference" : "753a9f0d-08f8-4f91-8d4e-5d42c58c53d0",
               "hasValidationError" : false,
               "id" : "pbTitle",
@@ -98,6 +100,7 @@
                   "value" : 12
                 }
               },
+
               "reference" : "dc8e594f-cc29-4b6e-ac7c-e9661a95d49a",
               "hasValidationError" : false,
               "id" : "pbText",
@@ -114,6 +117,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
+
         "reference" : "8ebdff42-bafb-4ec8-9ddc-43178564bd89",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
@@ -123,6 +127,7 @@
             "xs" : 12
           },
           "propertyValues" : { },
+
           "reference" : "3dc4b96e-252c-4186-934b-68ed55f79d79",
           "hasValidationError" : false,
           "id" : "pbContainer",
@@ -151,6 +156,7 @@
                   },
                   "text" : {
                     "type" : "interpolation",
+
                     "value" : "Gestor Projeto"
                   },
                   "alignment" : {
@@ -162,6 +168,7 @@
                     "value" : 12
                   }
                 },
+
                 "reference" : "280be8aa-e197-45ac-96f6-b42f766dd2b7",
                 "hasValidationError" : false,
                 "id" : "pbTitle",
@@ -194,6 +201,7 @@
                     "value" : 12
                   }
                 },
+
                 "reference" : "648349db-87b0-401f-a3d0-617c7db0f42f",
                 "hasValidationError" : false,
                 "id" : "pbContainer",
@@ -216,6 +224,7 @@
                           "type" : "constant",
                           "value" : false
                         },
+
                         "labelPosition" : {
                           "type" : "constant",
                           "value" : "top"
@@ -280,6 +289,7 @@
                           "type" : "constant",
                           "value" : false
                         },
+
                         "cssClasses" : {
                           "type" : "constant",
                           "value" : ""
@@ -290,6 +300,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
+
                           "value" : "Reuniao Comercial"
                         },
                         "dimension" : {
@@ -298,6 +309,7 @@
                         },
                         "value" : {
                           "type" : "variable",
+
                           "value" : "formInput.gestorProjetoInput.reuniaoComercial"
                         }
                       },
@@ -381,6 +393,7 @@
                     "value" : 12
                   }
                 },
+
                 "reference" : "6851f30c-087b-4508-8db5-d1bc1a20aac3",
                 "hasValidationError" : false,
                 "id" : "pbButton",
@@ -433,6 +446,7 @@
                     "value" : 12
                   }
                 },
+
                 "reference" : "56a98616-ed51-41b3-b871-d1421923b321",
                 "hasValidationError" : false,
                 "id" : "pbText",
@@ -446,6 +460,7 @@
   ],
   "assets" : [
     {
+
       "id" : "5e05aa41-0764-4536-ad8b-780b1e5b3d59",
       "name" : "localization.json",
       "type" : "json",
@@ -453,6 +468,7 @@
       "external" : false
     },
     {
+
       "id" : "cf5f62e8-608f-4056-aa91-0fa086415842",
       "name" : "style.css",
       "type" : "css",
@@ -469,6 +485,7 @@
       ],
       "exposed" : false
     },
+
     "formInput" : {
       "type" : "json",
       "value" : [
@@ -499,6 +516,7 @@
     "formOutput" : {
       "type" : "expression",
       "value" : [
+
         "return {",
         "\tgestorProjetoInput: $data.formInput.gestorProjetoInput",
         "}"
@@ -512,6 +530,7 @@
       ],
       "exposed" : false
     },
+
     "taskId" : {
       "type" : "urlparameter",
       "value" : [
@@ -521,6 +540,7 @@
     }
   },
   "hasValidationError" : false,
+
   "uuid" : "10b4d508-9f55-4cba-b8a5-c004d04b4c6c",
   "type" : "form",
   "description" : "Page generated with Bonita UI designer"
