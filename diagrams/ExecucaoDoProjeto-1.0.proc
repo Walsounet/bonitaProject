@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:connectorconfiguration="http://wwww.bonitasoft.org/model/connector/configuration" xmlns:decision="http://www.bonitasoft.org/ns/studio/process/decision" xmlns:expression="http://www.bonitasoft.org/ns/studio/expression" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:process="http://www.bonitasoft.org/ns/studio/process" xsi:schemaLocation="http://www.bonitasoft.org/ns/studio/process/decision http://www.bonitasoft.org/ns/studio/process#//decision">
   <process:MainProcess xmi:id="_BjI7wOZqEey3bNbyuPYH6Q" name="ExecucaoDoProjeto" author="user" bonitaVersion="7.14.0" bonitaModelVersion="7.12.0-004">
-    <elements xmi:type="process:Pool" xmi:id="_BjI7weZqEey3bNbyuPYH6Q" name="Execução do Projeto" displayName="Execução do Projeto">
+    <elements xmi:type="process:Pool" xmi:id="_BjI7weZqEey3bNbyuPYH6Q" name="Execução do Projeto" displayName="">
       <elements xmi:type="process:Lane" xmi:id="_BjI7wuZqEey3bNbyuPYH6Q" name="Equipa de projeto" actor="_0Iy84OZxEeyie5L5LmvxwQ">
         <elements xmi:type="process:Task" xmi:id="_BjI7w-ZqEey3bNbyuPYH6Q" name="Identificar gestor do projeto" outgoing="_BjI8XeZqEey3bNbyuPYH6Q" incoming="_mP2FgOZwEey3bNbyuPYH6Q" actor="_0Iy84OZxEeyie5L5LmvxwQ" overrideActorsOfTheLane="false">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_BjI7xOZqEey3bNbyuPYH6Q" name="" content="" returnTypeFixed="true"/>
@@ -274,7 +274,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_BjI8QeZqEey3bNbyuPYH6Q" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_BjI8QuZqEey3bNbyuPYH6Q" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_BjI8Q-ZqEey3bNbyuPYH6Q">
-            <targetForm xmi:type="expression:Expression" xmi:id="_rjFS8OmgEeyhraC4LK3udw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_dcZaMOmiEeyhraC4LK3udw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_BjI8ReZqEey3bNbyuPYH6Q"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_BjI8RuZqEey3bNbyuPYH6Q" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
@@ -289,7 +289,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_BjI8TuZqEey3bNbyuPYH6Q" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_BjI8T-ZqEey3bNbyuPYH6Q" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <calledActivityName xmi:type="expression:Expression" xmi:id="_BjI8UOZqEey3bNbyuPYH6Q" name="Execução do Projeto" content="Execução do Projeto"/>
-          <calledActivityVersion xmi:type="expression:Expression" xmi:id="_BjI8UeZqEey3bNbyuPYH6Q" name="" content="" returnTypeFixed="true"/>
+          <calledActivityVersion xmi:type="expression:Expression" xmi:id="_BjI8UeZqEey3bNbyuPYH6Q" name="1.0" content="1.0" returnTypeFixed="true"/>
         </elements>
       </elements>
       <data xmi:type="process:Data" xmi:id="_BjI8UuZqEey3bNbyuPYH6Q" name="g4g44" dataType="_BjI8neZqEey3bNbyuPYH6Q">
