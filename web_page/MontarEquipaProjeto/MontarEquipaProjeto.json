@@ -1,8 +1,8 @@
 {
   "modelVersion" : "2.2",
-  "id" : "MontarEquipa",
-  "name" : "MontarEquipa",
-  "lastUpdate" : 1654939924848,
+  "id" : "MontarEquipaProjeto",
+  "name" : "MontarEquipaProjeto",
+  "lastUpdate" : 1654616664082,
   "rows" : [
     [
       {
@@ -11,7 +11,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "3ae0684d-78de-4318-acd9-e5fa0d014451",
+        "reference" : "ad0b1e7f-0c4a-41dc-8d7e-3f2915c661f4",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -50,7 +50,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "06e16376-1a2d-44bf-ac6b-6b353c1714c3",
+              "reference" : "e777109f-6b06-41bb-9681-ade6fecb6bd1",
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -96,21 +96,9 @@
                 "dimension" : {
                   "type" : "constant",
                   "value" : 12
-                },
-                "labelPosition" : {
-                  "type" : "constant",
-                  "value" : "top"
-                },
-                "labelWidth" : {
-                  "type" : "constant",
-                  "value" : 4
-                },
-                "allowHTML" : {
-                  "type" : "constant",
-                  "value" : true
                 }
               },
-              "reference" : "14ef8b39-0a2d-4822-a679-018298b43df8",
+              "reference" : "b410cb3c-49c5-4976-a66a-869646cefac0",
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
@@ -126,7 +114,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "33b01312-313e-4d1c-bd69-0b5f78dcf836",
+        "reference" : "2d4669c3-083b-4939-952d-a5ae8716fbba",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -135,152 +123,10 @@
             "xs" : 12
           },
           "propertyValues" : { },
-          "reference" : "a3f1fcc7-3b4c-48fd-a844-9009d7eee46b",
+          "reference" : "fe75f701-18bb-446b-a090-1fa45f5ce6a7",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
-            [
-              {
-                "type" : "component",
-                "dimension" : {
-                  "md" : 12,
-                  "sm" : 12,
-                  "xs" : 12,
-                  "lg" : 12
-                },
-                "propertyValues" : {
-                  "hidden" : {
-                    "type" : "constant",
-                    "value" : false
-                  },
-                  "level" : {
-                    "type" : "constant",
-                    "value" : "Level 4"
-                  },
-                  "cssClasses" : {
-                    "type" : "constant",
-                    "value" : ""
-                  },
-                  "text" : {
-                    "type" : "interpolation",
-                    "value" : "Montar equipa de projeto"
-                  },
-                  "alignment" : {
-                    "type" : "constant",
-                    "value" : "left"
-                  },
-                  "dimension" : {
-                    "type" : "constant",
-                    "value" : 12
-                  }
-                },
-                "reference" : "064aa96a-4c2d-420d-baec-753618a973d0",
-                "hasValidationError" : false,
-                "id" : "pbTitle",
-                "description" : ""
-              }
-            ],
-            [
-              {
-                "type" : "container",
-                "dimension" : {
-                  "md" : 12,
-                  "sm" : 12,
-                  "xs" : 12,
-                  "lg" : 12
-                },
-                "propertyValues" : {
-                  "repeatedCollection" : {
-                    "type" : "variable",
-                    "value" : ""
-                  },
-                  "hidden" : {
-                    "type" : "constant",
-                    "value" : false
-                  },
-                  "cssClasses" : {
-                    "type" : "constant",
-                    "value" : ""
-                  },
-                  "dimension" : {
-                    "type" : "constant",
-                    "value" : 12
-                  }
-                },
-                "reference" : "471575d4-cb68-49c6-84e1-c41ebf2d770e",
-                "hasValidationError" : false,
-                "id" : "pbContainer",
-                "rows" : [
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "xs" : 12,
-                        "sm" : 12,
-                        "md" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "disabled" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "inline" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Escolher equipa"
-                        },
-                        "labelPosition" : {
-                          "type" : "constant",
-                          "value" : "top"
-                        },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 4
-                        },
-                        "availableValues" : {
-                          "type" : "constant",
-                          "value" : [
-                            "walter.bates",
-                            "william.jobs",
-                            "helen.kelly",
-                            "jan.fisher"
-                          ]
-                        },
-                        "displayedKey" : {
-                          "type" : "constant"
-                        },
-                        "returnedKey" : {
-                          "type" : "constant"
-                        },
-                        "selectedValues" : {
-                          "type" : "variable",
-                          "value" : "gestorProjeto.equipaProjeto"
-                        }
-                      },
-                      "reference" : "b7dd84ac-e981-4bc1-a516-298b72c15644",
-                      "hasValidationError" : false,
-                      "id" : "pbChecklist"
-                    }
-                  ]
-                ]
-              }
-            ],
             [
               {
                 "type" : "component",
@@ -352,7 +198,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "8b89cb11-6a95-4d2a-bdaa-963379f61443",
+                "reference" : "fb663c70-a457-4ebb-adf1-9ff70f45e88a",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -404,7 +250,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "d232dca1-d0f1-4351-9080-4c9991f927a7",
+                "reference" : "86ff87ba-1671-4e88-8e67-166691b5131a",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -417,16 +263,16 @@
   ],
   "assets" : [
     {
-      "id" : "50ebbfe6-f380-4909-99ad-c46f46308759",
-      "name" : "localization.json",
-      "type" : "json",
+      "id" : "191c51b7-ad08-4ad0-884b-26ae06b0d6e1",
+      "name" : "style.css",
+      "type" : "css",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "8357da00-6e34-4f6f-a982-489cabe08549",
-      "name" : "style.css",
-      "type" : "css",
+      "id" : "b439573c-ad48-4870-92d6-f65600ab2d29",
+      "name" : "localization.json",
+      "type" : "json",
       "order" : 0,
       "external" : false
     }
@@ -458,13 +304,8 @@
     "formOutput" : {
       "type" : "expression",
       "value" : [
-        "if( $data.gestorProjeto ){",
-        "\treturn {",
-        "\t\t//map gestorProjeto variable to expected task contract input",
-        "\t\tgestorProjetoInput: {",
-        "\t\t\tequipaProjeto: $data.gestorProjeto.equipaProjeto !== undefined ? $data.gestorProjeto.equipaProjeto : null",
-        "\t\t}",
-        "\t}",
+        "return {",
+        "",
         "}"
       ],
       "exposed" : false
@@ -473,13 +314,6 @@
       "type" : "url",
       "value" : [
         "../API/bpm/userTask/{{taskId}}/context"
-      ],
-      "exposed" : false
-    },
-    "gestorProjeto" : {
-      "type" : "url",
-      "value" : [
-        "../{{context.gestorProjeto_ref.link}}"
       ],
       "exposed" : false
     },
@@ -492,7 +326,7 @@
     }
   },
   "hasValidationError" : false,
-  "uuid" : "abf6e3c0-ae35-4468-9319-5cb9003efeff",
+  "uuid" : "132b2469-16e5-46d9-ac26-a9ea91a91a17",
   "type" : "form",
   "description" : "Page generated with Bonita UI designer"
 }
