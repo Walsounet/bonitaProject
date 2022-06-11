@@ -2,7 +2,7 @@
   "modelVersion" : "2.2",
   "id" : "validarinicform",
   "name" : "validarinicform",
-  "lastUpdate" : 1654955004122,
+  "lastUpdate" : 1654957895010,
   "rows" : [
     [
       {
@@ -39,7 +39,7 @@
                 },
                 "text" : {
                   "type" : "interpolation",
-                  "value" : "{{ task.displayName }}"
+                  "value" : "Validação de fatura"
                 },
                 "alignment" : {
                   "type" : "constant",
@@ -87,7 +87,7 @@
                 },
                 "text" : {
                   "type" : "interpolation",
-                  "value" : "{{ task.displayDescription }}"
+                  "value" : "Pretende validar a fatura?"
                 },
                 "alignment" : {
                   "type" : "constant",
@@ -215,7 +215,7 @@
                   },
                   "label" : {
                     "type" : "interpolation",
-                    "value" : "Submit"
+                    "value" : "Submeter"
                   },
                   "dataToSend" : {
                     "type" : "expression",
@@ -285,58 +285,6 @@
                 "reference" : "503a5dc3-eb78-4da0-be88-632c91209f14",
                 "hasValidationError" : false,
                 "id" : "pbButton",
-                "description" : ""
-              }
-            ],
-            [
-              {
-                "type" : "component",
-                "dimension" : {
-                  "md" : 12,
-                  "sm" : 12,
-                  "xs" : 12,
-                  "lg" : 12
-                },
-                "propertyValues" : {
-                  "allowHTML" : {
-                    "type" : "constant",
-                    "value" : true
-                  },
-                  "allowHtml" : {
-                    "type" : "constant",
-                    "value" : true
-                  },
-                  "labelHidden" : {
-                    "type" : "constant",
-                    "value" : true
-                  },
-                  "hidden" : {
-                    "type" : "expression",
-                    "value" : "!formOutput._submitError.message"
-                  },
-                  "cssClasses" : {
-                    "type" : "constant",
-                    "value" : "alert alert-danger col-lg-6 col-lg-offset-3"
-                  },
-                  "label" : {
-                    "type" : "interpolation"
-                  },
-                  "text" : {
-                    "type" : "interpolation",
-                    "value" : "<strong>Debug message</strong>\n<br/>\n{{formOutput._submitError.message}}\n{{submit_errors_list}}"
-                  },
-                  "alignment" : {
-                    "type" : "constant",
-                    "value" : "left"
-                  },
-                  "dimension" : {
-                    "type" : "constant",
-                    "value" : 12
-                  }
-                },
-                "reference" : "a66197a6-90c2-482a-a65a-bd75c6bc16d4",
-                "hasValidationError" : false,
-                "id" : "pbText",
                 "description" : ""
               }
             ]

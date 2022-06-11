@@ -4,7 +4,7 @@
     <elements xmi:type="process:Pool" xmi:id="_iO-VgeDoEeyl6oG5LE3Ktw" name="Validação de faturas">
       <elements xmi:type="process:Lane" xmi:id="_iO-VguDoEeyl6oG5LE3Ktw" name="Comercial" actor="_Y9Xf4ODrEeyl6oG5LE3Ktw">
         <elements xmi:type="process:XORGateway" xmi:id="_4GUcQODoEeyl6oG5LE3Ktw" name="Fatura validada??" outgoing="_APaDQODpEeyl6oG5LE3Ktw _HzoCoODpEeyl6oG5LE3Ktw" incoming="_fcnB8ODwEeyl6oG5LE3Ktw">
-          <dynamicLabel xmi:type="expression:Expression" xmi:id="_4GUcQuDoEeyl6oG5LE3Ktw" name="" content="" returnTypeFixed="true"/>
+          <dynamicLabel xmi:type="expression:Expression" xmi:id="_4GUcQuDoEeyl6oG5LE3Ktw" name="" content="" interpreter="GROOVY" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_4GUcQeDoEeyl6oG5LE3Ktw" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_4GUcQ-DoEeyl6oG5LE3Ktw" name="" content="" returnTypeFixed="true"/>
         </elements>
@@ -62,7 +62,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_FBpqR-DpEeyl6oG5LE3Ktw" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_FBpqRuDpEeyl6oG5LE3Ktw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_FBpqSeDpEeyl6oG5LE3Ktw">
-            <targetForm xmi:type="expression:Expression" xmi:id="_FBpqSuDpEeyl6oG5LE3Ktw" name="validarinicform" content="8a097f64-87df-4a36-89dc-709d986f0a7f" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_FBpqSuDpEeyl6oG5LE3Ktw" name="validarfaturatecnico" content="515be12c-74ad-487c-95b3-9aa84460640a" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_FBpqSODpEeyl6oG5LE3Ktw"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_FBpqS-DpEeyl6oG5LE3Ktw" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
