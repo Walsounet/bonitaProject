@@ -26,6 +26,17 @@
             <queries/>
             <indexes/>
         </businessObject>
+        <businessObject qualifiedName="com.company.model.FinalizarProjeto">
+            <fields>
+                <field type="FLOAT" length="255" name="desvios" nullable="true" collection="true"/>
+                <field type="LOCALDATE" length="255" name="data_inicio" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="data_fim" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="conhecimentos" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
         <businessObject qualifiedName="com.company.model.GestaoProjeto">
             <fields>
                 <field type="STRING" length="255" name="nomeGestor" nullable="true" collection="false"/>
