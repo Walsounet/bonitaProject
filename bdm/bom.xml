@@ -10,71 +10,6 @@
             <queries/>
             <indexes/>
         </businessObject>
-        <businessObject qualifiedName="com.company.model.Necessidade">
-            <fields>
-                <field type="BOOLEAN" length="255" name="isProjeto" nullable="true" collection="false"/>
-                <relationField type="AGGREGATION" reference="com.company.model.Cliente" fetchType="LAZY" name="clienteAssociado" nullable="true" collection="false"/>
-                <field type="BOOLEAN" length="255" name="isProjetoStandard" nullable="true" collection="false"/>
-            </fields>
-            <uniqueConstraints/>
-            <queries/>
-            <indexes/>
-        </businessObject>
-        <businessObject qualifiedName="com.company.model.Projeto">
-            <fields>
-                <relationField type="AGGREGATION" reference="com.company.model.Cliente" fetchType="LAZY" name="cliente" nullable="true" collection="false"/>
-            </fields>
-            <uniqueConstraints/>
-            <queries/>
-            <indexes/>
-        </businessObject>
-        <businessObject qualifiedName="com.company.model.PropostaComercial">
-            <fields>
-                <relationField type="AGGREGATION" reference="com.company.model.Cliente" fetchType="LAZY" name="clienteAssociado" nullable="true" collection="false"/>
-                <field type="BOOLEAN" length="255" name="isProjeto" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="preco" nullable="true" collection="false"/>
-            </fields>
-            <uniqueConstraints/>
-            <queries/>
-            <indexes/>
-        </businessObject>
-        <businessObject qualifiedName="com.company.model.PropostaTecnica">
-            <fields>
-                <relationField type="AGGREGATION" reference="com.company.model.Cliente" fetchType="LAZY" name="clienteAssociado" nullable="true" collection="false"/>
-                <field type="BOOLEAN" length="255" name="isProjeto" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="descricao" nullable="true" collection="false"/>
-            </fields>
-            <uniqueConstraints/>
-            <queries/>
-            <indexes/>
-        </businessObject>
-        <businessObject qualifiedName="com.company.model.Requisito">
-            <fields>
-                <field type="BOOLEAN" length="255" name="isValidado" nullable="true" collection="false"/>
-                <field type="BOOLEAN" length="255" name="necessitaDemonstracao" nullable="true" collection="false"/>
-                <relationField type="AGGREGATION" reference="com.company.model.Cliente" fetchType="LAZY" name="clienteAssociado" nullable="true" collection="false"/>
-            </fields>
-            <uniqueConstraints/>
-            <queries/>
-            <indexes/>
-        </businessObject>
-        <businessObject qualifiedName="com.company.model.Reuniao">
-            <fields>
-                <field type="LOCALDATE" length="255" name="dataAgendada" nullable="true" collection="false"/>
-                <relationField type="AGGREGATION" reference="com.company.model.Cliente" fetchType="LAZY" name="clienteAssociado" nullable="true" collection="false"/>
-            </fields>
-            <uniqueConstraints/>
-            <queries/>
-            <indexes/>
-        </businessObject>
-        <businessObject qualifiedName="com.company.model.Suporte">
-            <fields>
-                <relationField type="AGGREGATION" reference="com.company.model.Cliente" fetchType="LAZY" name="cliente" nullable="true" collection="false"/>
-            </fields>
-            <uniqueConstraints/>
-            <queries/>
-            <indexes/>
-        </businessObject>
         <businessObject qualifiedName="com.company.model.Contratos">
             <fields>
                 <field type="INTEGER" length="255" name="id" nullable="true" collection="false"/>
@@ -132,12 +67,80 @@
             <queries/>
             <indexes/>
         </businessObject>
+        <businessObject qualifiedName="com.company.model.Necessidade">
+            <fields>
+                <field type="BOOLEAN" length="255" name="isProjeto" nullable="true" collection="false"/>
+                <relationField type="AGGREGATION" reference="com.company.model.Cliente" fetchType="LAZY" name="clienteAssociado" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isProjetoStandard" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
         <businessObject qualifiedName="com.company.model.PedidoDeSuporte">
             <fields>
                 <field type="STRING" length="255" name="titulo" nullable="false" collection="false"/>
                 <field type="TEXT" length="255" name="descricao" nullable="false" collection="false"/>
                 <field type="TEXT" length="255" name="propostaDeResolucao" nullable="true" collection="false"/>
                 <field type="BOOLEAN" length="255" name="resolvido" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.Projeto">
+            <fields>
+                <relationField type="AGGREGATION" reference="com.company.model.Cliente" fetchType="LAZY" name="cliente" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.PropostaComercial">
+            <fields>
+                <relationField type="AGGREGATION" reference="com.company.model.Cliente" fetchType="LAZY" name="clienteAssociado" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isProjeto" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="preco" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isValidadoComercial" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isValidadoDiretorComercial" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="descricao" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.PropostaTecnica">
+            <fields>
+                <relationField type="AGGREGATION" reference="com.company.model.Cliente" fetchType="LAZY" name="clienteAssociado" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isProjeto" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="descricao" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.Requisito">
+            <fields>
+                <field type="BOOLEAN" length="255" name="isValidado" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="necessitaDemonstracao" nullable="true" collection="false"/>
+                <relationField type="AGGREGATION" reference="com.company.model.Cliente" fetchType="LAZY" name="clienteAssociado" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.Reuniao">
+            <fields>
+                <field type="LOCALDATE" length="255" name="dataAgendada" nullable="true" collection="false"/>
+                <relationField type="AGGREGATION" reference="com.company.model.Cliente" fetchType="LAZY" name="clienteAssociado" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.Suporte">
+            <fields>
+                <relationField type="AGGREGATION" reference="com.company.model.Cliente" fetchType="LAZY" name="cliente" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>

@@ -16,10 +16,17 @@
       <password encrypted="false">123</password>
       <customUserInfoValues/>
     </user>
+    <user userName="DiretorComercial">
+      <firstName>Ze</firstName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
   </users>
   <roles>
     <role name="Membro">
-      <displayName>Comercial</displayName>
+      <displayName>Membro</displayName>
     </role>
   </roles>
   <groups>
@@ -28,6 +35,9 @@
     </group>
     <group name="Equipa de pré-venda">
       <displayName>Equipa de pré-venda</displayName>
+    </group>
+    <group name="DiretorComercial">
+      <displayName>DiretorComercial</displayName>
     </group>
   </groups>
   <memberships>
@@ -40,6 +50,11 @@
       <userName>EquipaPreVenda</userName>
       <roleName>Membro</roleName>
       <groupName>Equipa de pré-venda</groupName>
+    </membership>
+    <membership>
+      <userName>DiretorComercial</userName>
+      <roleName>Membro</roleName>
+      <groupName>DiretorComercial</groupName>
     </membership>
   </memberships>
 </organization:Organization>
