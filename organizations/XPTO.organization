@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1" name="XPTO">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="Comercial">
+      <firstName>Joao</firstName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="EquipaPreVenda">
+      <firstName>Maria</firstName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="Membro">
+      <displayName>Comercial</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="Comercial">
+      <displayName>Comercial</displayName>
+    </group>
+    <group name="Equipa de pré-venda">
+      <displayName>Equipa de pré-venda</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>Comercial</userName>
+      <roleName>Membro</roleName>
+      <groupName>Comercial</groupName>
+    </membership>
+    <membership>
+      <userName>EquipaPreVenda</userName>
+      <roleName>Membro</roleName>
+      <groupName>Equipa de pré-venda</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>
