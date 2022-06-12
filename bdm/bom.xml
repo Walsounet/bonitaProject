@@ -18,10 +18,11 @@
                 <field type="STRING" length="255" name="descricao" nullable="true" collection="false"/>
                 <field type="BOOLEAN" length="255" name="is_projeto" nullable="true" collection="false"/>
                 <field type="LOCALDATE" length="255" name="data_inicio" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="duracao_meses" nullable="true" collection="false"/>
                 <field type="LOCALDATE" length="255" name="data_fim" nullable="true" collection="false"/>
                 <field type="BOOLEAN" length="255" name="renovavel" nullable="true" collection="false"/>
                 <field type="BOOLEAN" length="255" name="renovavel_cliente" nullable="true" collection="false"/>
-                <field type="BOOLEAN" length="255" name="inciado" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="iniciar" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>

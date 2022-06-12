@@ -1,133 +1,17 @@
 {
   "modelVersion" : "2.2",
-  "id" : "newForm3",
-  "name" : "newForm3",
-<<<<<<< HEAD
-  "lastUpdate" : 1654902315048,
+  "id" : "ExecucaoDeContrato",
+  "name" : "ExecucaoDeContrato",
+  "lastUpdate" : 1654892465128,
   "rows" : [
     [
       {
-        "type" : "container",
-        "dimension" : {
-          "xs" : 12
-        },
-        "propertyValues" : { },
-        "reference" : "efb2a9bf-3f13-4632-9067-3f47134f9550",
-        "hasValidationError" : false,
-        "id" : "pbContainer",
-        "rows" : [
-          [
-            {
-              "type" : "component",
-              "dimension" : {
-                "md" : 12,
-                "sm" : 12,
-                "xs" : 12,
-                "lg" : 12
-              },
-              "propertyValues" : {
-                "hidden" : {
-                  "type" : "constant",
-                  "value" : false
-                },
-                "level" : {
-                  "type" : "constant",
-                  "value" : "Level 1"
-                },
-                "cssClasses" : {
-                  "type" : "constant",
-                  "value" : ""
-                },
-                "text" : {
-                  "type" : "interpolation",
-                  "value" : "{{ task.displayName }}"
-                },
-                "alignment" : {
-                  "type" : "constant",
-                  "value" : "center"
-                },
-                "dimension" : {
-                  "type" : "constant",
-                  "value" : 12
-                }
-              },
-              "reference" : "1dcc70b0-0939-4181-a469-079a695a3de9",
-              "hasValidationError" : false,
-              "id" : "pbTitle",
-              "description" : ""
-            }
-          ],
-          [
-            {
-              "type" : "component",
-              "dimension" : {
-                "md" : 12,
-                "sm" : 12,
-                "xs" : 12,
-                "lg" : 12
-              },
-              "propertyValues" : {
-                "allowHtml" : {
-                  "type" : "constant",
-                  "value" : true
-                },
-                "labelHidden" : {
-                  "type" : "constant",
-                  "value" : true
-                },
-                "hidden" : {
-                  "type" : "constant",
-                  "value" : false
-                },
-                "cssClasses" : {
-                  "type" : "constant",
-                  "value" : ""
-                },
-                "label" : {
-                  "type" : "interpolation"
-                },
-                "text" : {
-                  "type" : "interpolation",
-                  "value" : "{{ task.displayDescription }}"
-                },
-                "alignment" : {
-                  "type" : "constant",
-                  "value" : "left"
-                },
-                "dimension" : {
-                  "type" : "constant",
-                  "value" : 12
-                }
-              },
-              "reference" : "66f6f285-da31-4d32-b9f5-3b02a735a1b7",
-              "hasValidationError" : false,
-              "id" : "pbText",
-              "description" : ""
-            }
-          ]
-        ]
-      }
-    ],
-    [
-      {
-=======
-  "lastUpdate" : 1654896869840,
-  "rows" : [
-    [
-      {
->>>>>>> Vrau
         "type" : "formContainer",
         "dimension" : {
           "xs" : 12
         },
         "propertyValues" : { },
-<<<<<<< HEAD
-
-        "reference" : "0013ba6e-7b1c-4c66-8c88-15d1c5066e6f",
-
-=======
-        "reference" : "3ce88922-6be5-43a8-b48c-0c821f89e38b",
->>>>>>> Vrau
+        "reference" : "c624bd38-88df-47c1-bd49-b036a26f903e",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -136,12 +20,7 @@
             "xs" : 12
           },
           "propertyValues" : { },
-<<<<<<< HEAD
-
-          "reference" : "ebef5dd8-981a-4606-bd17-dc2e67d5c633",
-=======
-          "reference" : "820a0df8-f412-44e5-ab48-7a07f6f671af",
->>>>>>> Vrau
+          "reference" : "810381b2-ed10-4ed3-8423-3fbfa6fe8aa1",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
@@ -155,7 +34,6 @@
                   "lg" : 12
                 },
                 "propertyValues" : {
-<<<<<<< HEAD
                   "hidden" : {
                     "type" : "constant",
                     "value" : false
@@ -170,8 +48,7 @@
                   },
                   "text" : {
                     "type" : "interpolation",
-
-                    "value" : "Gestor Projeto"
+                    "value" : "Contratos"
                   },
                   "alignment" : {
                     "type" : "constant",
@@ -182,8 +59,7 @@
                     "value" : 12
                   }
                 },
-
-                "reference" : "3f353432-56b6-497e-b360-ec73f864f4a6",
+                "reference" : "988413d7-a94a-4361-a0e9-73a5ef3214b2",
                 "hasValidationError" : false,
                 "id" : "pbTitle",
                 "description" : ""
@@ -215,8 +91,7 @@
                     "value" : 12
                   }
                 },
-
-                "reference" : "ff15270a-b0ab-4a52-b55f-53afd65c1968",
+                "reference" : "1c1442e0-0920-4311-8158-fbba376a10a5",
                 "hasValidationError" : false,
                 "id" : "pbContainer",
                 "rows" : [
@@ -238,7 +113,6 @@
                           "type" : "constant",
                           "value" : false
                         },
-
                         "labelPosition" : {
                           "type" : "constant",
                           "value" : "top"
@@ -257,7 +131,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Nome Gestor"
+                          "value" : "Cliente_nome"
                         },
                         "placeholder" : {
                           "type" : "constant"
@@ -272,67 +146,115 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "gestorProjeto.nomeGestor"
+                          "value" : "formInput.contratosInput.cliente_nome"
                         },
                         "required" : {
                           "type" : "constant",
                           "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
                         }
                       },
-                      "reference" : "b15ba645-9062-4c6e-8fb3-f73011f66574",
+                      "reference" : "6f6b8421-ebaf-4a7f-9ac6-1046db4ebbd1",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
                     }
-                  ],
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "disabled" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-
-                          "value" : "Reuniao Comercial"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        },
-                        "value" : {
-                          "type" : "variable",
-
-                          "value" : "gestorProjeto.reuniaoComercial"
-                        }
-                      },
-                      "reference" : "50030b49-92d4-4330-962f-79f35dc1fab3",
-                      "hasValidationError" : false,
-                      "id" : "pbCheckbox",
-                      "description" : ""
-                    }
                   ]
                 ]
+              }
+            ],
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "xs" : 12,
+                  "sm" : 12,
+                  "md" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "required" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "minLength" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "maxLength" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "readOnly" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "labelHidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "label" : {
+                    "type" : "interpolation",
+                    "value" : "Default label"
+                  },
+                  "labelPosition" : {
+                    "type" : "constant",
+                    "value" : "top"
+                  },
+                  "labelWidth" : {
+                    "type" : "constant",
+                    "value" : 4
+                  },
+                  "placeholder" : {
+                    "type" : "interpolation"
+                  },
+                  "value" : {
+                    "type" : "variable",
+                    "value" : "formInput.contratosInput.duracao_meses"
+                  },
+                  "type" : {
+                    "type" : "constant",
+                    "value" : "text"
+                  },
+                  "min" : {
+                    "type" : "constant"
+                  },
+                  "max" : {
+                    "type" : "constant"
+                  },
+                  "step" : {
+                    "type" : "constant",
+                    "value" : 1
+                  }
+                },
+                "reference" : "d1d6553b-775a-49b6-a13b-f01c46be803a",
+                "hasValidationError" : false,
+                "id" : "pbInput"
               }
             ],
             [
@@ -345,8 +267,6 @@
                   "lg" : 12
                 },
                 "propertyValues" : {
-=======
->>>>>>> Vrau
                   "removeItem" : {
                     "type" : "variable"
                   },
@@ -387,12 +307,7 @@
                   },
                   "action" : {
                     "type" : "constant",
-<<<<<<< HEAD
-
-                    "value" : "Submit task"
-=======
                     "value" : "Start process"
->>>>>>> Vrau
                   },
                   "collectionToModify" : {
                     "type" : "variable"
@@ -411,14 +326,32 @@
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
+                  },
+                  "assign" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "url" : {
+                    "type" : "interpolation"
+                  },
+                  "responseStatusCode" : {
+                    "type" : "variable",
+                    "value" : ""
+                  },
+                  "dataFromSuccess" : {
+                    "type" : "variable",
+                    "value" : ""
+                  },
+                  "closeOnSuccess" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "modalId" : {
+                    "type" : "constant",
+                    "value" : ""
                   }
                 },
-<<<<<<< HEAD
-
-                "reference" : "a65cea54-4667-4be4-8d03-08e5c37b882a",
-=======
-                "reference" : "3755c1dd-ca8d-4c18-a804-93c38c1c0677",
->>>>>>> Vrau
+                "reference" : "44d82da6-3916-42b5-8a2d-20b3a2e39c37",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -470,12 +403,7 @@
                     "value" : 12
                   }
                 },
-<<<<<<< HEAD
-
-                "reference" : "0812bd91-d931-4040-bdfe-92c86325d024",
-=======
-                "reference" : "52f445ac-3352-4b4b-a3f8-656a2c41f053",
->>>>>>> Vrau
+                "reference" : "5824be87-bcca-411c-a18b-fed7ffbd1540",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -488,44 +416,30 @@
   ],
   "assets" : [
     {
-<<<<<<< HEAD
-
-      "id" : "02c80707-fc18-4690-98e5-dda200df340f",
-=======
-      "id" : "b1ca411e-64c6-4fde-9f3e-bbefec49e437",
->>>>>>> Vrau
-      "name" : "localization.json",
-      "type" : "json",
+      "id" : "8bb30ad0-20da-46b2-8d73-a743e85cf6f8",
+      "name" : "style.css",
+      "type" : "css",
       "order" : 0,
       "external" : false
     },
     {
-<<<<<<< HEAD
-
-      "id" : "1cb2dca8-2ab4-4c9e-bbfd-3030950aa3eb",
-=======
-      "id" : "e079700d-28ad-476f-895a-b152ff49f99e",
->>>>>>> Vrau
-      "name" : "style.css",
-      "type" : "css",
+      "id" : "63adf811-e642-4a80-97d6-2a3e1137c161",
+      "name" : "localization.json",
+      "type" : "json",
       "order" : 0,
       "external" : false
     }
   ],
   "inactiveAssets" : [ ],
   "variables" : {
-<<<<<<< HEAD
-
-    "task" : {
-      "type" : "url",
-      "value" : [
-        "../API/bpm/userTask/{{taskId}}"
-=======
     "formInput" : {
       "type" : "json",
       "value" : [
-        "{ }"
->>>>>>> Vrau
+        "{\r",
+        "  \"contratosInput\" : {\r",
+        "    \"cliente_nome\" : \"\"\r",
+        "  }\r",
+        "}"
       ],
       "exposed" : false
     },
@@ -547,55 +461,15 @@
     "formOutput" : {
       "type" : "expression",
       "value" : [
-<<<<<<< HEAD
-
-        "if( $data.gestorProjeto ){",
-        "\treturn {",
-        "\t\t//map gestorProjeto variable to expected task contract input",
-        "\t\tgestorProjetoInputB: {",
-        "\t\t\tnomeGestor: $data.gestorProjeto.nomeGestor !== undefined ? $data.gestorProjeto.nomeGestor : null,",
-        "\t\t\treuniaoComercial: $data.gestorProjeto.reuniaoComercial !== undefined ? $data.gestorProjeto.reuniaoComercial : null",
-        "\t\t}",
-        "\t}",
-        "}"
-      ],
-      "exposed" : false
-    },
-    "context" : {
-      "type" : "url",
-      "value" : [
-        "../API/bpm/userTask/{{taskId}}/context"
-      ],
-      "exposed" : false
-    },
-    "gestorProjeto" : {
-      "type" : "url",
-      "value" : [
-        "../{{context.gestorProjeto_ref.link}}"
-      ],
-      "exposed" : false
-    },
-    "taskId" : {
-      "type" : "urlparameter",
-      "value" : [
-        "id"
-      ],
-      "exposed" : false
-    }
-  },
-  "hasValidationError" : false,
-  "uuid" : "6e58a31a-5899-4758-8d21-d9df2ebc38ef",
-=======
         "return {",
-        "",
+        "\tcontratosInput: $data.formInput.contratosInput",
         "}"
       ],
       "exposed" : false
     }
   },
   "hasValidationError" : false,
-  "uuid" : "1d7c2919-1844-4733-9067-54b808e1ee39",
->>>>>>> Vrau
+  "uuid" : "6b8aebc9-3a5a-4899-9675-61863fecbdd8",
   "type" : "form",
   "description" : "Page generated with Bonita UI designer"
 }
