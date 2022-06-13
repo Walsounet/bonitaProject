@@ -30,6 +30,18 @@
       <password encrypted="false">123</password>
       <customUserInfoValues/>
     </user>
+    <user userName="Equipa de projeto">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Gestor Projeto">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
   </users>
   <roles>
     <role name="Membro">
@@ -68,6 +80,16 @@
     </membership>
     <membership>
       <userName>Cliente</userName>
+      <roleName>Membro</roleName>
+      <groupName>Comercial</groupName>
+    </membership>
+    <membership>
+      <userName>Equipa de projeto</userName>
+      <roleName>Membro</roleName>
+      <groupName>Comercial</groupName>
+    </membership>
+    <membership>
+      <userName>Gestor Projeto</userName>
       <roleName>Membro</roleName>
       <groupName>Comercial</groupName>
     </membership>
