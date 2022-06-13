@@ -36,6 +36,24 @@
       <password encrypted="false">123</password>
       <customUserInfoValues/>
     </user>
+    <user userName="GestaoClientes">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="GestorProjeto">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="EquipaProjeto">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
   </users>
   <roles>
     <role name="Membro">
@@ -57,6 +75,15 @@
     </group>
     <group name="Equipa de suporte">
       <displayName>Equipa de suporte</displayName>
+    </group>
+    <group name="EquipaProjeto">
+      <displayName>EquipaProjeto</displayName>
+    </group>
+    <group name="GestorProjeto">
+      <displayName>GestorProjeto</displayName>
+    </group>
+    <group name="GestaoClientes">
+      <displayName>GestaoClientes</displayName>
     </group>
   </groups>
   <memberships>
@@ -84,6 +111,21 @@
       <userName>EquipaSuporte</userName>
       <roleName>Membro</roleName>
       <groupName>Equipa de suporte</groupName>
+    </membership>
+    <membership>
+      <userName>GestaoClientes</userName>
+      <roleName>Membro</roleName>
+      <groupName>GestaoClientes</groupName>
+    </membership>
+    <membership>
+      <userName>GestorProjeto</userName>
+      <roleName>Membro</roleName>
+      <groupName>GestorProjeto</groupName>
+    </membership>
+    <membership>
+      <userName>EquipaProjeto</userName>
+      <roleName>Membro</roleName>
+      <groupName>EquipaProjeto</groupName>
     </membership>
   </memberships>
 </organization:Organization>
