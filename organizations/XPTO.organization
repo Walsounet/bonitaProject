@@ -36,6 +36,37 @@
       <password encrypted="false">123</password>
       <customUserInfoValues/>
     </user>
+    <user userName="EquipaContabilidade">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="GestaoClientes">
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="EquipaProjeto">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="TecnicoServico">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="GestorProjeto">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
   </users>
   <roles>
     <role name="Membro">
@@ -57,6 +88,21 @@
     </group>
     <group name="Equipa de suporte">
       <displayName>Equipa de suporte</displayName>
+    </group>
+    <group name="GestaoClientes">
+      <displayName>GestaoClientes</displayName>
+    </group>
+    <group name="GestaoProjeto">
+      <displayName>GestaoProjeto</displayName>
+    </group>
+    <group name="EquipaProjeto">
+      <displayName>EquipaProjeto</displayName>
+    </group>
+    <group name="TecnicoServico">
+      <displayName>TecnicoServico</displayName>
+    </group>
+    <group name="EquipaContabilidade">
+      <displayName>EquipaContabilidade</displayName>
     </group>
   </groups>
   <memberships>
@@ -84,6 +130,31 @@
       <userName>EquipaSuporte</userName>
       <roleName>Membro</roleName>
       <groupName>Equipa de suporte</groupName>
+    </membership>
+    <membership>
+      <userName>EquipaContabilidade</userName>
+      <roleName>Membro</roleName>
+      <groupName>Comercial</groupName>
+    </membership>
+    <membership>
+      <userName>GestaoClientes</userName>
+      <roleName>Membro</roleName>
+      <groupName>GestaoClientes</groupName>
+    </membership>
+    <membership>
+      <userName>EquipaProjeto</userName>
+      <roleName>Membro</roleName>
+      <groupName>EquipaProjeto</groupName>
+    </membership>
+    <membership>
+      <userName>TecnicoServico</userName>
+      <roleName>Membro</roleName>
+      <groupName>TecnicoServico</groupName>
+    </membership>
+    <membership>
+      <userName>GestorProjeto</userName>
+      <roleName>Membro</roleName>
+      <groupName>GestaoProjeto</groupName>
     </membership>
   </memberships>
 </organization:Organization>

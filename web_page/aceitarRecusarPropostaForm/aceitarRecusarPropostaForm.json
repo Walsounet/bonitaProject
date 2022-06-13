@@ -2,7 +2,7 @@
   "modelVersion" : "2.2",
   "id" : "aceitarRecusarPropostaForm",
   "name" : "aceitarRecusarPropostaForm",
-  "lastUpdate" : 1655144297398,
+  "lastUpdate" : 1655158374159,
   "rows" : [
     [
       {
@@ -631,7 +631,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Is Proposta Aceite"
+                          "value" : "Aceitar proposta?"
                         },
                         "dimension" : {
                           "type" : "constant",
@@ -640,6 +640,10 @@
                         "value" : {
                           "type" : "variable",
                           "value" : "propostaComercial.isPropostaAceite"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : false
                         }
                       },
                       "reference" : "9edc3368-614a-443a-a87e-d553db11e7c4",
@@ -663,8 +667,8 @@
                           "value" : false
                         },
                         "hidden" : {
-                          "type" : "constant",
-                          "value" : false
+                          "type" : "expression",
+                          "value" : "propostaComercial.isPropostaAceite==true"
                         },
                         "cssClasses" : {
                           "type" : "constant",
@@ -676,7 +680,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Is Renegociar Proposta"
+                          "value" : "Renegociar proposta?"
                         },
                         "dimension" : {
                           "type" : "constant",
@@ -685,6 +689,10 @@
                         "value" : {
                           "type" : "variable",
                           "value" : "propostaComercial.isRenegociarProposta"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : false
                         }
                       },
                       "reference" : "1647d6a7-20f9-40f1-a5d4-c9117709c0dc",
