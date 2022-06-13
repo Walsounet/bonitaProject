@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< Updated upstream
 	<name>bonitaProjectLas</name>
+=======
+	<name>bonitaProjectTEST6</name>
+>>>>>>> Stashed changes
 	<comment>7.14.0</comment>
 	<projects>
 	</projects>
