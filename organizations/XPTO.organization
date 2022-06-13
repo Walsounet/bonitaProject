@@ -40,16 +40,6 @@
       <personalData/>
       <professionalData/>
       <password encrypted="false">123</password>
-    <user userName="EquipaProjeto">
-      <personalData/>
-      <professionalData/>
-      <password encrypted="false">bpm</password>
-      <customUserInfoValues/>
-    </user>
-    <user userName="GestorProjeto">
-      <personalData/>
-      <professionalData/>
-      <password encrypted="false">bpm</password>
       <customUserInfoValues/>
     </user>
   </users>
@@ -62,8 +52,8 @@
     <group name="Comercial">
       <displayName>Comercial</displayName>
     </group>
-    <group name="Equipa de prÃ©-venda">
-      <displayName>Equipa de prÃ©-venda</displayName>
+    <group name="Equipa de pré-venda">
+      <displayName>Equipa de pré-venda</displayName>
     </group>
     <group name="DiretorComercial">
       <displayName>DiretorComercial</displayName>
@@ -81,7 +71,7 @@
     <membership>
       <userName>EquipaPreVenda</userName>
       <roleName>Membro</roleName>
-      <groupName>Equipa de prÃ©-venda</groupName>
+      <groupName>Equipa de pré-venda</groupName>
     </membership>
     <membership>
       <userName>DiretorComercial</userName>
@@ -95,13 +85,11 @@
     </membership>
     <membership>
       <userName>EquipaContabilidade</userName>
-      <userName>EquipaProjeto</userName>
       <roleName>Membro</roleName>
       <groupName>Comercial</groupName>
     </membership>
     <membership>
       <userName>ResponsavelTecnico</userName>
-      <userName>GestorProjeto</userName>
       <roleName>Membro</roleName>
       <groupName>Comercial</groupName>
     </membership>
