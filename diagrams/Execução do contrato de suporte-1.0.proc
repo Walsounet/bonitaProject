@@ -2,7 +2,7 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:decision="http://www.bonitasoft.org/ns/studio/process/decision" xmlns:expression="http://www.bonitasoft.org/ns/studio/expression" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:process="http://www.bonitasoft.org/ns/studio/process" xsi:schemaLocation="http://www.bonitasoft.org/ns/studio/process/decision http://www.bonitasoft.org/ns/studio/process#//decision">
   <process:MainProcess xmi:id="_gMvhsOROEeyzkeXKg8z7vw" name="Execução do contrato de suporte" author="waldo" bonitaVersion="7.14.0" bonitaModelVersion="7.12.0-004">
     <elements xmi:type="process:Pool" xmi:id="_gMvhseROEeyzkeXKg8z7vw" name="Execução do contrato de suporte">
-      <elements xmi:type="process:Lane" xmi:id="_gMvhsuROEeyzkeXKg8z7vw" name="Equipa de suporte" actor="_gMvhy-ROEeyzkeXKg8z7vw">
+      <elements xmi:type="process:Lane" xmi:id="_gMvhsuROEeyzkeXKg8z7vw" name="Equipa de suporte" actor="_d_jWwORhEeyzkeXKg8z7vw">
         <elements xmi:type="process:Task" xmi:id="_7GEUkOROEeyzkeXKg8z7vw" name="Executar Contrato" incoming="_t54U0OZ3EeyiiLJluEZOGQ" overrideActorsOfTheLane="false">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_2eUGUuROEeyzkeXKg8z7vw" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_2eUGUeROEeyzkeXKg8z7vw" name="" content="" returnTypeFixed="true"/>
