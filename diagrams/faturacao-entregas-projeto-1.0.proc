@@ -32,6 +32,9 @@
               <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_O3BQwOmYEeyffZr6UJmq7w" name="fatura_validada" dataType="_G_pLdOZrEeydL51yHrjXaw" className="com.company.model.Faturas"/>
             </processSource>
           </inputMappings>
+          <inputMappings xmi:type="process:InputMapping" xmi:id="_kZXF0OsiEeyTVpSIN_3rAQ" subprocessTarget="fatu_validadaInput">
+            <processSource xmi:type="expression:Expression" xmi:id="_kZXF0esiEeyTVpSIN_3rAQ" name="" content=""/>
+          </inputMappings>
           <outputMappings xmi:type="process:OutputMapping" xmi:id="_Kt3DAOmYEeyffZr6UJmq7w" subprocessSource="fatura_validada" processTarget="_byPH0OmJEeyffZr6UJmq7w"/>
           <calledActivityName xmi:type="expression:Expression" xmi:id="_vrfo4-mXEeyffZr6UJmq7w" name="Validação de faturas" content="Validação de faturas" returnTypeFixed="true"/>
           <calledActivityVersion xmi:type="expression:Expression" xmi:id="_vrfo5OmXEeyffZr6UJmq7w" name="1.0" content="1.0" returnTypeFixed="true"/>
@@ -111,17 +114,6 @@
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_QsE0UuZrEeydL51yHrjXaw" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_QsE0UeZrEeydL51yHrjXaw" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_QsE0U-ZrEeydL51yHrjXaw" name="" content="" returnTypeFixed="true"/>
-          <operations xmi:type="expression:Operation" xmi:id="_VNjRsuscEeyTVpSIN_3rAQ">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_VNjRs-scEeyTVpSIN_3rAQ" name="nome_cliente" content="nome_cliente" type="TYPE_VARIABLE" returnType="com.company.model.Cliente">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_VNjRtOscEeyTVpSIN_3rAQ" name="nome_cliente" dataType="_G_pLdOZrEeydL51yHrjXaw" className="com.company.model.Cliente"/>
-            </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_VNjRtescEeyTVpSIN_3rAQ" name="nome_clienteInput.nome" content="nome_clienteInput?.nome" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_VNjRtuscEeyTVpSIN_3rAQ" name="nome_clienteInput" type="COMPLEX" createMode="false"/>
-            </rightOperand>
-            <operator xmi:type="expression:Operator" xmi:id="_VNjRt-scEeyTVpSIN_3rAQ" type="JAVA_METHOD" expression="setNome">
-              <inputTypes>java.lang.String</inputTypes>
-            </operator>
-          </operations>
           <loopCondition xmi:type="expression:Expression" xmi:id="_QsE0VOZrEeydL51yHrjXaw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <loopMaximum xmi:type="expression:Expression" xmi:id="_QsE0VeZrEeydL51yHrjXaw" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
           <cardinalityExpression xmi:type="expression:Expression" xmi:id="_QsE0VuZrEeydL51yHrjXaw" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
@@ -130,13 +122,10 @@
         </elements>
       </elements>
       <data xmi:type="process:BusinessObjectData" xmi:id="_byPH0OmJEeyffZr6UJmq7w" name="fatura_validada" dataType="_G_pLdOZrEeydL51yHrjXaw" className="com.company.model.Faturas">
-        <defaultValue xmi:type="expression:Expression" xmi:id="_byPH0emJEeyffZr6UJmq7w" name="init_fatura_validada()" content="" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="com.company.model.Faturas"/>
-      </data>
-      <data xmi:type="process:BusinessObjectData" xmi:id="_WHBxAOsUEeyTVpSIN_3rAQ" name="nome_cliente" dataType="_G_pLdOZrEeydL51yHrjXaw" className="com.company.model.Cliente">
-        <defaultValue xmi:type="expression:Expression" xmi:id="_WHBxAesUEeyTVpSIN_3rAQ" name="init_nome_cliente()" content="''" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="com.company.model.Cliente"/>
+        <defaultValue xmi:type="expression:Expression" xmi:id="_R-HdEOsjEeyTVpSIN_3rAQ" name="initFatura_validada()" content="" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="com.company.model.Faturas"/>
       </data>
       <formMapping xmi:type="process:FormMapping" xmi:id="_G_pLVOZrEeydL51yHrjXaw">
-        <targetForm xmi:type="expression:Expression" xmi:id="_spEoUOsZEeyTVpSIN_3rAQ" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+        <targetForm xmi:type="expression:Expression" xmi:id="_lyPu4OsjEeyTVpSIN_3rAQ" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
       </formMapping>
       <overviewFormMapping xmi:type="process:FormMapping" xmi:id="_G_pLVuZrEeydL51yHrjXaw">
         <targetForm xmi:type="expression:Expression" xmi:id="_G_pLV-ZrEeydL51yHrjXaw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
