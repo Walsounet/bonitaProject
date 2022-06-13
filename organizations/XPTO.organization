@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1" name="XPTO">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="Comercial">
+      <firstName>Joao</firstName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="EquipaPreVenda">
+      <firstName>Maria</firstName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="DiretorComercial">
+      <firstName>Ze</firstName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Cliente">
+      <firstName>Waldomiro</firstName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="EquipaProjeto">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="GestorProjeto">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="Membro">
+      <displayName>Membro</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="Comercial">
+      <displayName>Comercial</displayName>
+    </group>
+    <group name="Equipa de prÃ©-venda">
+      <displayName>Equipa de prÃ©-venda</displayName>
+    </group>
+    <group name="DiretorComercial">
+      <displayName>DiretorComercial</displayName>
+    </group>
+    <group name="Cliente">
+      <displayName>Cliente</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>Comercial</userName>
+      <roleName>Membro</roleName>
+      <groupName>Comercial</groupName>
+    </membership>
+    <membership>
+      <userName>EquipaPreVenda</userName>
+      <roleName>Membro</roleName>
+      <groupName>Equipa de prÃ©-venda</groupName>
+    </membership>
+    <membership>
+      <userName>DiretorComercial</userName>
+      <roleName>Membro</roleName>
+      <groupName>DiretorComercial</groupName>
+    </membership>
+    <membership>
+      <userName>Cliente</userName>
+      <roleName>Membro</roleName>
+      <groupName>Comercial</groupName>
+    </membership>
+    <membership>
+      <userName>EquipaProjeto</userName>
+      <roleName>Membro</roleName>
+      <groupName>Comercial</groupName>
+    </membership>
+    <membership>
+      <userName>GestorProjeto</userName>
+      <roleName>Membro</roleName>
+      <groupName>Comercial</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>
