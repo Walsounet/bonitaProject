@@ -2,6 +2,7 @@
   "modelVersion" : "2.2",
   "id" : "newForm3",
   "name" : "newForm3",
+<<<<<<< HEAD
   "lastUpdate" : 1654902315048,
   "rows" : [
     [
@@ -109,14 +110,24 @@
     ],
     [
       {
+=======
+  "lastUpdate" : 1654896869840,
+  "rows" : [
+    [
+      {
+>>>>>>> Vrau
         "type" : "formContainer",
         "dimension" : {
           "xs" : 12
         },
         "propertyValues" : { },
+<<<<<<< HEAD
 
         "reference" : "0013ba6e-7b1c-4c66-8c88-15d1c5066e6f",
 
+=======
+        "reference" : "3ce88922-6be5-43a8-b48c-0c821f89e38b",
+>>>>>>> Vrau
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -125,8 +136,12 @@
             "xs" : 12
           },
           "propertyValues" : { },
+<<<<<<< HEAD
 
           "reference" : "ebef5dd8-981a-4606-bd17-dc2e67d5c633",
+=======
+          "reference" : "820a0df8-f412-44e5-ab48-7a07f6f671af",
+>>>>>>> Vrau
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
@@ -140,6 +155,7 @@
                   "lg" : 12
                 },
                 "propertyValues" : {
+<<<<<<< HEAD
                   "hidden" : {
                     "type" : "constant",
                     "value" : false
@@ -329,6 +345,8 @@
                   "lg" : 12
                 },
                 "propertyValues" : {
+=======
+>>>>>>> Vrau
                   "removeItem" : {
                     "type" : "variable"
                   },
@@ -369,8 +387,12 @@
                   },
                   "action" : {
                     "type" : "constant",
+<<<<<<< HEAD
 
                     "value" : "Submit task"
+=======
+                    "value" : "Start process"
+>>>>>>> Vrau
                   },
                   "collectionToModify" : {
                     "type" : "variable"
@@ -391,8 +413,12 @@
                     "value" : 12
                   }
                 },
+<<<<<<< HEAD
 
                 "reference" : "a65cea54-4667-4be4-8d03-08e5c37b882a",
+=======
+                "reference" : "3755c1dd-ca8d-4c18-a804-93c38c1c0677",
+>>>>>>> Vrau
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -444,8 +470,12 @@
                     "value" : 12
                   }
                 },
+<<<<<<< HEAD
 
                 "reference" : "0812bd91-d931-4040-bdfe-92c86325d024",
+=======
+                "reference" : "52f445ac-3352-4b4b-a3f8-656a2c41f053",
+>>>>>>> Vrau
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -458,16 +488,24 @@
   ],
   "assets" : [
     {
+<<<<<<< HEAD
 
       "id" : "02c80707-fc18-4690-98e5-dda200df340f",
+=======
+      "id" : "b1ca411e-64c6-4fde-9f3e-bbefec49e437",
+>>>>>>> Vrau
       "name" : "localization.json",
       "type" : "json",
       "order" : 0,
       "external" : false
     },
     {
+<<<<<<< HEAD
 
       "id" : "1cb2dca8-2ab4-4c9e-bbfd-3030950aa3eb",
+=======
+      "id" : "e079700d-28ad-476f-895a-b152ff49f99e",
+>>>>>>> Vrau
       "name" : "style.css",
       "type" : "css",
       "order" : 0,
@@ -476,11 +514,18 @@
   ],
   "inactiveAssets" : [ ],
   "variables" : {
+<<<<<<< HEAD
 
     "task" : {
       "type" : "url",
       "value" : [
         "../API/bpm/userTask/{{taskId}}"
+=======
+    "formInput" : {
+      "type" : "json",
+      "value" : [
+        "{ }"
+>>>>>>> Vrau
       ],
       "exposed" : false
     },
@@ -502,6 +547,7 @@
     "formOutput" : {
       "type" : "expression",
       "value" : [
+<<<<<<< HEAD
 
         "if( $data.gestorProjeto ){",
         "\treturn {",
@@ -539,6 +585,17 @@
   },
   "hasValidationError" : false,
   "uuid" : "6e58a31a-5899-4758-8d21-d9df2ebc38ef",
+=======
+        "return {",
+        "",
+        "}"
+      ],
+      "exposed" : false
+    }
+  },
+  "hasValidationError" : false,
+  "uuid" : "1d7c2919-1844-4733-9067-54b808e1ee39",
+>>>>>>> Vrau
   "type" : "form",
   "description" : "Page generated with Bonita UI designer"
 }
