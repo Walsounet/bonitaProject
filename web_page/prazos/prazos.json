@@ -1,8 +1,8 @@
 {
   "modelVersion" : "2.2",
-  "id" : "ApurarPrazos",
-  "name" : "ApurarPrazos",
-  "lastUpdate" : 1654986836361,
+  "id" : "prazos",
+  "name" : "prazos",
+  "lastUpdate" : 1655118162545,
   "rows" : [
     [
       {
@@ -11,7 +11,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "4657d3a9-ec56-4580-bd4d-8a7abc691396",
+        "reference" : "af7e623a-65fc-4fd5-8386-d77261354325",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -50,7 +50,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "70ac5250-7967-4526-9ed5-04694b558d06",
+              "reference" : "187abf7c-e9af-49ed-9309-50df3ee6a978",
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -98,7 +98,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "50fba7c3-9e1f-4420-84e3-e6881160489c",
+              "reference" : "69c8a50e-be47-4aa1-a1ef-e2981a1af8f6",
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
@@ -114,7 +114,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "2412ce94-66bd-4cda-9426-3e0b5eba7d02",
+        "reference" : "14ec412b-f2ea-49b7-b306-b02a19897bac",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -123,7 +123,7 @@
             "xs" : 12
           },
           "propertyValues" : { },
-          "reference" : "d1785194-319b-4f05-9b96-17b8b3a4b4fa",
+          "reference" : "aa3a9a13-cd9b-46e0-931d-9ce057cd2af5",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
@@ -162,7 +162,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "9d1b037a-7155-4b61-8949-118050eb4576",
+                "reference" : "5511a16a-dd71-4fac-875d-73e0f82fa12b",
                 "hasValidationError" : false,
                 "id" : "pbTitle",
                 "description" : ""
@@ -195,51 +195,10 @@
                     "value" : 12
                   }
                 },
-                "reference" : "b456a429-2653-4aa8-8391-25258ac8dd3d",
+                "reference" : "099befe4-dcaf-4685-aff5-b17ad181e8c4",
                 "hasValidationError" : false,
                 "id" : "pbContainer",
                 "rows" : [
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "level" : {
-                          "type" : "constant",
-                          "value" : "Level 4"
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "text" : {
-                          "type" : "interpolation",
-                          "value" : "Apurar Prazos"
-                        },
-                        "alignment" : {
-                          "type" : "constant",
-                          "value" : "left"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        }
-                      },
-                      "reference" : "6da3de5c-2155-4fd3-a912-2bf801fdd4a3",
-                      "hasValidationError" : false,
-                      "id" : "pbTitle",
-                      "description" : ""
-                    }
-                  ],
                   [
                     {
                       "type" : "component",
@@ -310,7 +269,7 @@
                           "value" : "finalizarProjeto.data_inicio"
                         }
                       },
-                      "reference" : "39b40c8c-e49d-495c-b0bd-14bf59e1208a",
+                      "reference" : "d98f6c27-e56a-4326-96dd-aee882dabb31",
                       "hasValidationError" : false,
                       "id" : "pbDatePicker",
                       "description" : ""
@@ -386,7 +345,7 @@
                           "value" : "finalizarProjeto.data_fim"
                         }
                       },
-                      "reference" : "5c5a16e9-df7f-494e-982b-52f5f712b956",
+                      "reference" : "144f983e-244b-4092-b9fb-ee5fdaec7be3",
                       "hasValidationError" : false,
                       "id" : "pbDatePicker",
                       "description" : ""
@@ -466,7 +425,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "7eb7490c-bf3f-40ad-998d-33c324385006",
+                "reference" : "eeb1d2bb-7120-4c65-86dc-d79898344bf6",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -518,7 +477,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "d04eb59a-995a-4c70-8a65-e64952dab9d3",
+                "reference" : "f39477a8-bb59-46e1-a878-6424a9347ad4",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -531,16 +490,16 @@
   ],
   "assets" : [
     {
-      "id" : "2a3b001f-66c3-4d3d-bbe5-221ba4bcc689",
-      "name" : "localization.json",
-      "type" : "json",
+      "id" : "cf64f801-bee1-49ff-b73b-8eb0fe9f066f",
+      "name" : "style.css",
+      "type" : "css",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "508a9515-2dcd-4ce9-9a20-bc7732d22326",
-      "name" : "style.css",
-      "type" : "css",
+      "id" : "f86873e2-c3dc-4e7d-8bd4-c937b07b4543",
+      "name" : "localization.json",
+      "type" : "json",
       "order" : 0,
       "external" : false
     }
@@ -607,7 +566,7 @@
     }
   },
   "hasValidationError" : false,
-  "uuid" : "899337fd-9b7f-42b9-a5ca-ece7b1a1e6a2",
+  "uuid" : "43b0b3c8-10a7-428d-b40e-707d4924d0cc",
   "type" : "form",
   "description" : "Page generated with Bonita UI designer"
 }
