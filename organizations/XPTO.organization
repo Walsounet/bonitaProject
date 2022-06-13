@@ -30,6 +30,12 @@
       <password encrypted="false">123</password>
       <customUserInfoValues/>
     </user>
+    <user userName="EquipaSuporte">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
   </users>
   <roles>
     <role name="Membro">
@@ -48,6 +54,9 @@
     </group>
     <group name="Cliente">
       <displayName>Cliente</displayName>
+    </group>
+    <group name="Equipa de suporte">
+      <displayName>Equipa de suporte</displayName>
     </group>
   </groups>
   <memberships>
@@ -70,6 +79,11 @@
       <userName>Cliente</userName>
       <roleName>Membro</roleName>
       <groupName>Cliente</groupName>
+    </membership>
+    <membership>
+      <userName>EquipaSuporte</userName>
+      <roleName>Membro</roleName>
+      <groupName>Equipa de suporte</groupName>
     </membership>
   </memberships>
 </organization:Organization>
