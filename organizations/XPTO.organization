@@ -30,6 +30,36 @@
       <password encrypted="false">123</password>
       <customUserInfoValues/>
     </user>
+    <user userName="GestorProjeto">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="EquipaProjeto">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="EquipaContabilidade">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="TecnicoServico">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="GestaoClientes">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
   </users>
   <roles>
     <role name="Membro">
@@ -68,6 +98,31 @@
     </membership>
     <membership>
       <userName>Cliente</userName>
+      <roleName>Membro</roleName>
+      <groupName>Comercial</groupName>
+    </membership>
+    <membership>
+      <userName>GestorProjeto</userName>
+      <roleName>Membro</roleName>
+      <groupName>Comercial</groupName>
+    </membership>
+    <membership>
+      <userName>EquipaProjeto</userName>
+      <roleName>Membro</roleName>
+      <groupName>Comercial</groupName>
+    </membership>
+    <membership>
+      <userName>EquipaContabilidade</userName>
+      <roleName>Membro</roleName>
+      <groupName>Comercial</groupName>
+    </membership>
+    <membership>
+      <userName>TecnicoServico</userName>
+      <roleName>Membro</roleName>
+      <groupName>Comercial</groupName>
+    </membership>
+    <membership>
+      <userName>GestaoClientes</userName>
       <roleName>Membro</roleName>
       <groupName>Comercial</groupName>
     </membership>

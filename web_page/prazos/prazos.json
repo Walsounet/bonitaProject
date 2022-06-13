@@ -1,8 +1,8 @@
 {
   "modelVersion" : "2.2",
-  "id" : "ApurarDesvios",
-  "name" : "ApurarDesvios",
-  "lastUpdate" : 1655118116939,
+  "id" : "prazos",
+  "name" : "prazos",
+  "lastUpdate" : 1655118162545,
   "rows" : [
     [
       {
@@ -11,7 +11,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "cfc24bc1-0aec-4796-9455-9917e3a76a35",
+        "reference" : "af7e623a-65fc-4fd5-8386-d77261354325",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -50,7 +50,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "4124f0ba-ad1f-4d7f-95e8-28bbd8984b38",
+              "reference" : "187abf7c-e9af-49ed-9309-50df3ee6a978",
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -98,7 +98,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "b022c6e3-33a6-4c74-9c0c-dc6066099692",
+              "reference" : "69c8a50e-be47-4aa1-a1ef-e2981a1af8f6",
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
@@ -114,7 +114,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "ded7a56f-4530-43e2-ac5c-45a7472efbed",
+        "reference" : "14ec412b-f2ea-49b7-b306-b02a19897bac",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -123,7 +123,7 @@
             "xs" : 12
           },
           "propertyValues" : { },
-          "reference" : "76a952e3-aa71-4691-9727-ce61c14d0ef7",
+          "reference" : "aa3a9a13-cd9b-46e0-931d-9ce057cd2af5",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
@@ -162,7 +162,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "b93fe102-a659-46a6-a3bb-6b696db2589b",
+                "reference" : "5511a16a-dd71-4fac-875d-73e0f82fa12b",
                 "hasValidationError" : false,
                 "id" : "pbTitle",
                 "description" : ""
@@ -195,7 +195,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "6d8f9c65-0cc0-4289-802f-f623518d5525",
+                "reference" : "099befe4-dcaf-4685-aff5-b17ad181e8c4",
                 "hasValidationError" : false,
                 "id" : "pbContainer",
                 "rows" : [
@@ -203,71 +203,152 @@
                     {
                       "type" : "component",
                       "dimension" : {
-                        "xs" : 12,
-                        "sm" : 12,
                         "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
                         "lg" : 12
                       },
                       "propertyValues" : {
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
                         "hidden" : {
                           "type" : "constant",
                           "value" : false
                         },
-                        "disabled" : {
+                        "dateFormat" : {
                           "type" : "constant",
-                          "value" : false
+                          "value" : "MM/dd/yyyy"
                         },
-                        "required" : {
+                        "cssClasses" : {
                           "type" : "constant",
-                          "value" : true
+                          "value" : ""
                         },
-                        "labelHidden" : {
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 1
+                        },
+                        "readOnly" : {
                           "type" : "constant",
                           "value" : false
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Apurar desvios"
+                          "value" : "Data_inicio"
+                        },
+                        "type" : {
+                          "type" : "constant"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "todayLabel" : {
+                          "type" : "constant",
+                          "value" : "Today"
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "showToday" : {
+                          "type" : "constant",
+                          "value" : true
                         },
                         "labelPosition" : {
                           "type" : "constant",
                           "value" : "top"
                         },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 4
-                        },
                         "placeholder" : {
-                          "type" : "interpolation",
-                          "value" : "Selecione a opção"
-                        },
-                        "availableValues" : {
                           "type" : "constant",
-                          "value" : [
-                            "Baixo",
-                            "Médio",
-                            "Alto",
-                            "Muito Alto"
-                          ]
+                          "value" : "Enter a date (mm/dd/yyyy)"
                         },
-                        "displayedKey" : {
-                          "type" : "constant"
-                        },
-                        "returnedKey" : {
-                          "type" : "constant"
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "finalizarProjeto.desvios"
+                          "value" : "finalizarProjeto.data_inicio"
                         }
                       },
-                      "reference" : "359438f0-cbf6-4126-b03f-6093cfd0407c",
+                      "reference" : "d98f6c27-e56a-4326-96dd-aee882dabb31",
                       "hasValidationError" : false,
-                      "id" : "pbSelect"
+                      "id" : "pbDatePicker",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "dateFormat" : {
+                          "type" : "constant",
+                          "value" : "MM/dd/yyyy"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 1
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Data_fim"
+                        },
+                        "type" : {
+                          "type" : "constant"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "todayLabel" : {
+                          "type" : "constant",
+                          "value" : "Today"
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "showToday" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "placeholder" : {
+                          "type" : "constant",
+                          "value" : "Enter a date (mm/dd/yyyy)"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "finalizarProjeto.data_fim"
+                        }
+                      },
+                      "reference" : "144f983e-244b-4092-b9fb-ee5fdaec7be3",
+                      "hasValidationError" : false,
+                      "id" : "pbDatePicker",
+                      "description" : ""
                     }
                   ]
                 ]
@@ -344,7 +425,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "7467077a-2eb9-471c-9e10-e4bdfd29898a",
+                "reference" : "eeb1d2bb-7120-4c65-86dc-d79898344bf6",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -396,7 +477,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "a3c85fe9-5ffe-408b-9b6a-aea89b5291f7",
+                "reference" : "f39477a8-bb59-46e1-a878-6424a9347ad4",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -409,16 +490,16 @@
   ],
   "assets" : [
     {
-      "id" : "cdb60fef-c4e5-4cbc-8707-bead9c6bceb2",
-      "name" : "localization.json",
-      "type" : "json",
+      "id" : "cf64f801-bee1-49ff-b73b-8eb0fe9f066f",
+      "name" : "style.css",
+      "type" : "css",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "811556ee-db0b-4ad0-909a-2d5b78a2d215",
-      "name" : "style.css",
-      "type" : "css",
+      "id" : "f86873e2-c3dc-4e7d-8bd4-c937b07b4543",
+      "name" : "localization.json",
+      "type" : "json",
       "order" : 0,
       "external" : false
     }
@@ -461,7 +542,8 @@
         "\treturn {",
         "\t\t//map finalizarProjeto variable to expected task contract input",
         "\t\tfinalizarProjetoInput: {",
-        "\t\t\tdesvios: $data.finalizarProjeto.desvios !== undefined ? $data.finalizarProjeto.desvios : null",
+        "\t\t\tdata_inicio: $data.finalizarProjeto.data_inicio !== undefined ? $data.finalizarProjeto.data_inicio : null,",
+        "\t\t\tdata_fim: $data.finalizarProjeto.data_fim !== undefined ? $data.finalizarProjeto.data_fim : null",
         "\t\t}",
         "\t}",
         "}"
@@ -484,7 +566,7 @@
     }
   },
   "hasValidationError" : false,
-  "uuid" : "1558a2b6-4241-41ca-9565-44693e8586ac",
+  "uuid" : "43b0b3c8-10a7-428d-b40e-707d4924d0cc",
   "type" : "form",
   "description" : "Page generated with Bonita UI designer"
 }
