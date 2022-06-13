@@ -366,17 +366,17 @@
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_dA_gwukXEey929T4Vb5SJQ" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_dA_gwekXEey929T4Vb5SJQ" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_dA_gw-kXEey929T4Vb5SJQ" name="" content="" returnTypeFixed="true"/>
-          <events xmi:type="process:Message" xmi:id="_B4dPIOnFEeyOr_DEgjLQ6g" name="propostaTecnica">
-            <correlation xmi:type="process:Correlation" xmi:id="_B4dPIenFEeyOr_DEgjLQ6g">
-              <correlationAssociation xmi:type="expression:TableExpression" xmi:id="_B4d2MOnFEeyOr_DEgjLQ6g"/>
+          <events xmi:type="process:Message" xmi:id="_FHd9YOq4EeylvPI7jfA_jg" name="propostaTecnica">
+            <correlation xmi:type="process:Correlation" xmi:id="_FHd9Yeq4EeylvPI7jfA_jg">
+              <correlationAssociation xmi:type="expression:TableExpression" xmi:id="_FHd9Yuq4EeylvPI7jfA_jg"/>
             </correlation>
-            <targetProcessExpression xmi:type="expression:Expression" xmi:id="_B4d2MenFEeyOr_DEgjLQ6g" name="Elaboração de propostas" content="Elaboração de propostas" returnTypeFixed="true"/>
-            <targetElementExpression xmi:type="expression:Expression" xmi:id="_B4d2MunFEeyOr_DEgjLQ6g" name="Proposta tecnica recebida" content="Proposta tecnica recebida" returnTypeFixed="true"/>
-            <messageContent xmi:type="expression:TableExpression" xmi:id="_B4d2M-nFEeyOr_DEgjLQ6g">
-              <expressions xmi:type="expression:ListExpression" xmi:id="_B4d2NOnFEeyOr_DEgjLQ6g">
-                <expressions xmi:type="expression:Expression" xmi:id="_B4d2NenFEeyOr_DEgjLQ6g" name="propostaTecnicaId" content="propostaTecnicaId" returnTypeFixed="true"/>
-                <expressions xmi:type="expression:Expression" xmi:id="_B4d2NunFEeyOr_DEgjLQ6g" name="getPropostaTecnicaId()" content="propostaTecnica.getPersistenceId()" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-                  <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_Ky3SoOn3EeyzJI2SxCBwxA" name="propostaTecnica" dataType="_tAG0rddXEey_c9oL6s2VOQ" className="com.company.model.PropostaTecnica"/>
+            <targetProcessExpression xmi:type="expression:Expression" xmi:id="_FHd9Y-q4EeylvPI7jfA_jg" name="Elaboração de propostas" content="Elaboração de propostas" returnTypeFixed="true"/>
+            <targetElementExpression xmi:type="expression:Expression" xmi:id="_FHd9ZOq4EeylvPI7jfA_jg" name="Proposta tecnica recebida" content="Proposta tecnica recebida" returnTypeFixed="true"/>
+            <messageContent xmi:type="expression:TableExpression" xmi:id="_FHd9Zeq4EeylvPI7jfA_jg">
+              <expressions xmi:type="expression:ListExpression" xmi:id="_FHd9Zuq4EeylvPI7jfA_jg">
+                <expressions xmi:type="expression:Expression" xmi:id="_FHd9Z-q4EeylvPI7jfA_jg" name="propostaTecnica" content="propostaTecnica" returnTypeFixed="true"/>
+                <expressions xmi:type="expression:Expression" xmi:id="_FHd9aOq4EeylvPI7jfA_jg" name="propostaTecnica" content="propostaTecnica" type="TYPE_VARIABLE" returnType="com.company.model.PropostaTecnica">
+                  <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_FHd9aeq4EeylvPI7jfA_jg" name="propostaTecnica" dataType="_tAG0rddXEey_c9oL6s2VOQ" className="com.company.model.PropostaTecnica"/>
                 </expressions>
               </expressions>
             </messageContent>
@@ -490,7 +490,7 @@
         <defaultValue xmi:type="expression:Expression" xmi:id="_ft4yUem7EeyAu7C-pclzjQ" name="" content="" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Object"/>
       </data>
       <formMapping xmi:type="process:FormMapping" xmi:id="_tAGNpNdXEey_c9oL6s2VOQ">
-        <targetForm xmi:type="expression:Expression" xmi:id="_htVBEOnoEeyzJI2SxCBwxA" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+        <targetForm xmi:type="expression:Expression" xmi:id="_ZXK_oOqyEeylvPI7jfA_jg" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
       </formMapping>
       <overviewFormMapping xmi:type="process:FormMapping" xmi:id="_tAGNptdXEey_c9oL6s2VOQ">
         <targetForm xmi:type="expression:Expression" xmi:id="_tAGNp9dXEey_c9oL6s2VOQ" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
@@ -732,7 +732,7 @@
         <defaultValue xmi:type="expression:Expression" xmi:id="_Wiq_9um7EeyAu7C-pclzjQ" name="" content="" interpreter="GROOVY"/>
       </data>
       <formMapping xmi:type="process:FormMapping" xmi:id="_R5umT-m4EeyAu7C-pclzjQ">
-        <targetForm xmi:type="expression:Expression" xmi:id="_jA6v4OnoEeyzJI2SxCBwxA" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+        <targetForm xmi:type="expression:Expression" xmi:id="_ZZ3uUOqyEeylvPI7jfA_jg" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
       </formMapping>
       <overviewFormMapping xmi:type="process:FormMapping" xmi:id="_R5umUem4EeyAu7C-pclzjQ">
         <targetForm xmi:type="expression:Expression" xmi:id="_R5umUum4EeyAu7C-pclzjQ" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>

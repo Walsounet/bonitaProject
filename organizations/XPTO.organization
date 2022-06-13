@@ -23,6 +23,13 @@
       <password encrypted="false">123</password>
       <customUserInfoValues/>
     </user>
+    <user userName="Cliente">
+      <firstName>Waldomiro</firstName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
   </users>
   <roles>
     <role name="Membro">
@@ -38,6 +45,9 @@
     </group>
     <group name="DiretorComercial">
       <displayName>DiretorComercial</displayName>
+    </group>
+    <group name="Cliente">
+      <displayName>Cliente</displayName>
     </group>
   </groups>
   <memberships>
@@ -55,6 +65,11 @@
       <userName>DiretorComercial</userName>
       <roleName>Membro</roleName>
       <groupName>DiretorComercial</groupName>
+    </membership>
+    <membership>
+      <userName>Cliente</userName>
+      <roleName>Membro</roleName>
+      <groupName>Comercial</groupName>
     </membership>
   </memberships>
 </organization:Organization>

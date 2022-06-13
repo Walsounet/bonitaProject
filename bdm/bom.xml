@@ -10,9 +10,8 @@
             <queries/>
             <indexes/>
         </businessObject>
-        <businessObject qualifiedName="com.company.model.Contratos">
+        <businessObject qualifiedName="com.company.model.Contrato">
             <fields>
-                <field type="INTEGER" length="255" name="id" nullable="true" collection="false"/>
                 <field type="STRING" length="255" name="cliente_nome" nullable="true" collection="false"/>
                 <field type="STRING" length="255" name="titulo" nullable="true" collection="false"/>
                 <field type="STRING" length="255" name="descricao" nullable="true" collection="false"/>
@@ -104,6 +103,9 @@
                 <field type="BOOLEAN" length="255" name="isValidadoComercial" nullable="true" collection="false"/>
                 <field type="BOOLEAN" length="255" name="isValidadoDiretorComercial" nullable="true" collection="false"/>
                 <field type="STRING" length="255" name="descricao" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isPropostaAceite" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isRenegociarProposta" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="duracaoMeses" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>
