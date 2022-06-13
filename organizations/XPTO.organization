@@ -36,12 +36,6 @@
       <password encrypted="false">123</password>
       <customUserInfoValues/>
     </user>
-    <user userName="EquipaContabilidade">
-      <personalData/>
-      <professionalData/>
-      <password encrypted="false">123</password>
-      <customUserInfoValues/>
-    </user>
     <user userName="GestaoClientes">
       <manager></manager>
       <personalData/>
@@ -55,16 +49,17 @@
       <password encrypted="false">123</password>
       <customUserInfoValues/>
     </user>
-    <user userName="TecnicoServico">
+    <user userName="GestorProjeto">
       <personalData/>
       <professionalData/>
       <password encrypted="false">123</password>
       <customUserInfoValues/>
     </user>
-    <user userName="GestorProjeto">
+    <user userName="Tecnico de servico">
+      <manager></manager>
       <personalData/>
       <professionalData/>
-      <password encrypted="false">123</password>
+      <password encrypted="false">bpm</password>
       <customUserInfoValues/>
     </user>
   </users>
@@ -77,8 +72,8 @@
     <group name="Comercial">
       <displayName>Comercial</displayName>
     </group>
-    <group name="Equipa de prÃ©-venda">
-      <displayName>Equipa de prÃ©-venda</displayName>
+    <group name="Equipa de prevenda">
+      <displayName>Equipa de prevenda</displayName>
     </group>
     <group name="DiretorComercial">
       <displayName>DiretorComercial</displayName>
@@ -101,9 +96,6 @@
     <group name="TecnicoServico">
       <displayName>TecnicoServico</displayName>
     </group>
-    <group name="EquipaContabilidade">
-      <displayName>EquipaContabilidade</displayName>
-    </group>
   </groups>
   <memberships>
     <membership>
@@ -114,7 +106,7 @@
     <membership>
       <userName>EquipaPreVenda</userName>
       <roleName>Membro</roleName>
-      <groupName>Equipa de prÃ©-venda</groupName>
+      <groupName>Equipa de prevenda</groupName>
     </membership>
     <membership>
       <userName>DiretorComercial</userName>
@@ -132,11 +124,6 @@
       <groupName>Equipa de suporte</groupName>
     </membership>
     <membership>
-      <userName>EquipaContabilidade</userName>
-      <roleName>Membro</roleName>
-      <groupName>Comercial</groupName>
-    </membership>
-    <membership>
       <userName>GestaoClientes</userName>
       <roleName>Membro</roleName>
       <groupName>GestaoClientes</groupName>
@@ -147,14 +134,14 @@
       <groupName>EquipaProjeto</groupName>
     </membership>
     <membership>
-      <userName>TecnicoServico</userName>
-      <roleName>Membro</roleName>
-      <groupName>TecnicoServico</groupName>
-    </membership>
-    <membership>
       <userName>GestorProjeto</userName>
       <roleName>Membro</roleName>
       <groupName>GestaoProjeto</groupName>
+    </membership>
+    <membership>
+      <userName>Tecnico de servico</userName>
+      <roleName>Membro</roleName>
+      <groupName>TecnicoServico</groupName>
     </membership>
   </memberships>
 </organization:Organization>
