@@ -157,6 +157,32 @@
             </operator>
           </messageContent>
         </elements>
+        <elements xmi:type="process:IntermediateThrowMessageEvent" xmi:id="_9Q0x0OsmEeyTVpSIN_3rAQ" name="Enviar prazos">
+          <dynamicLabel xmi:type="expression:Expression" xmi:id="_9Q1Y4esmEeyTVpSIN_3rAQ" name="" content="" returnTypeFixed="true"/>
+          <dynamicDescription xmi:type="expression:Expression" xmi:id="_9Q1Y4OsmEeyTVpSIN_3rAQ" name="" content="" returnTypeFixed="true"/>
+          <stepSummary xmi:type="expression:Expression" xmi:id="_9Q1Y4usmEeyTVpSIN_3rAQ" name="" content="" returnTypeFixed="true"/>
+          <events xmi:type="process:Message" xmi:id="_MHgSMOsnEeyTVpSIN_3rAQ" name="Prazos">
+            <correlation xmi:type="process:Correlation" xmi:id="_MHgSMesnEeyTVpSIN_3rAQ">
+              <correlationAssociation xmi:type="expression:TableExpression" xmi:id="_MHgSMusnEeyTVpSIN_3rAQ"/>
+            </correlation>
+            <targetProcessExpression xmi:type="expression:Expression" xmi:id="_MHgSM-snEeyTVpSIN_3rAQ" name="Faturação de entregas de projeto" content="Faturação de entregas de projeto" returnTypeFixed="true"/>
+            <targetElementExpression xmi:type="expression:Expression" xmi:id="_MHgSNOsnEeyTVpSIN_3rAQ" name="ReceberPrazos" content="ReceberPrazos" returnTypeFixed="true"/>
+            <messageContent xmi:type="expression:TableExpression" xmi:id="_MHgSNesnEeyTVpSIN_3rAQ">
+              <expressions xmi:type="expression:ListExpression" xmi:id="_MHgSNusnEeyTVpSIN_3rAQ">
+                <expressions xmi:type="expression:Expression" xmi:id="_MHgSN-snEeyTVpSIN_3rAQ" name="datainicio" content="datainicio" returnTypeFixed="true"/>
+                <expressions xmi:type="expression:Expression" xmi:id="_MHgSOOsnEeyTVpSIN_3rAQ" name="newScript()" content="finalizarProjeto.data_inicio" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+                  <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_MHgSOesnEeyTVpSIN_3rAQ" name="finalizarProjeto" dataType="_gOsnPunAEeyJPoXMdyxptw" className="com.company.model.FinalizarProjeto"/>
+                </expressions>
+              </expressions>
+              <expressions xmi:type="expression:ListExpression" xmi:id="_MHgSOusnEeyTVpSIN_3rAQ">
+                <expressions xmi:type="expression:Expression" xmi:id="_MHgSO-snEeyTVpSIN_3rAQ" name="datafim" content="datafim" returnTypeFixed="true"/>
+                <expressions xmi:type="expression:Expression" xmi:id="_MHgSPOsnEeyTVpSIN_3rAQ" name="newScript()" content="finalizarProjeto.data_fim" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+                  <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_MHgSPesnEeyTVpSIN_3rAQ" name="finalizarProjeto" dataType="_gOsnPunAEeyJPoXMdyxptw" className="com.company.model.FinalizarProjeto"/>
+                </expressions>
+              </expressions>
+            </messageContent>
+          </events>
+        </elements>
       </elements>
       <data xmi:type="process:BusinessObjectData" xmi:id="_FrE98Or-EeyvJ6vMsMs74g" name="finalizarProjeto" dataType="_gOsnPunAEeyJPoXMdyxptw" className="com.company.model.FinalizarProjeto">
         <defaultValue xmi:type="expression:Expression" xmi:id="_FrE98er-EeyvJ6vMsMs74g" name="" content="" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Object"/>
@@ -284,6 +310,12 @@
                 <layoutConstraint xmi:type="notation:Location" xmi:id="_v-HgQOsTEeyrkKmwCtMtVA" y="5"/>
               </children>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v-G5NesTEeyrkKmwCtMtVA" x="80" y="110" width="30" height="30"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_9Q1_8OsmEeyTVpSIN_3rAQ" type="3014" element="_9Q0x0OsmEeyTVpSIN_3rAQ" fontName="Segoe UI">
+              <children xmi:type="notation:DecorationNode" xmi:id="_9Q1_8usmEeyTVpSIN_3rAQ" type="5030">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_9Q1_8-smEeyTVpSIN_3rAQ" y="5"/>
+              </children>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9Q1_8esmEeyTVpSIN_3rAQ" x="467" y="201"/>
             </children>
           </children>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_gOsnTenAEeyJPoXMdyxptw"/>
