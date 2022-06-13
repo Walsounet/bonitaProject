@@ -79,6 +79,15 @@
     <group name="Cliente">
       <displayName>Cliente</displayName>
     </group>
+    <group name="GestorDeProjeto">
+      <displayName>GestorDeProjeto</displayName>
+    </group>
+    <group name="EquipaDeContabilidade">
+      <displayName>EquipaDeContabilidade</displayName>
+    </group>
+    <group name="EquipaDeProjeto">
+      <displayName>EquipaDeProjeto</displayName>
+    </group>
   </groups>
   <memberships>
     <membership>
@@ -99,22 +108,22 @@
     <membership>
       <userName>Cliente</userName>
       <roleName>Membro</roleName>
-      <groupName>Comercial</groupName>
+      <groupName>Cliente</groupName>
     </membership>
     <membership>
       <userName>GestorProjeto</userName>
       <roleName>Membro</roleName>
-      <groupName>Comercial</groupName>
+      <groupName>GestorDeProjeto</groupName>
     </membership>
     <membership>
       <userName>EquipaProjeto</userName>
       <roleName>Membro</roleName>
-      <groupName>Comercial</groupName>
+      <groupName>EquipaDeProjeto</groupName>
     </membership>
     <membership>
       <userName>EquipaContabilidade</userName>
       <roleName>Membro</roleName>
-      <groupName>Comercial</groupName>
+      <groupName>EquipaDeContabilidade</groupName>
     </membership>
     <membership>
       <userName>TecnicoServico</userName>

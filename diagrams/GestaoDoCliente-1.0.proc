@@ -23,10 +23,17 @@
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_EZckMenQEeyJPoXMdyxptw" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_EZckM-nQEeyJPoXMdyxptw" name="" content="" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:StartMessageEvent" xmi:id="_FdEdAOnTEeyJPoXMdyxptw" name="novo cliente recebido" outgoing="_2vDQwOnPEeyJPoXMdyxptw" event="cliente">
+        <elements xmi:type="process:StartMessageEvent" xmi:id="_FdEdAOnTEeyJPoXMdyxptw" name="novo cliente recebido" outgoing="_2vDQwOnPEeyJPoXMdyxptw" event="DadosCliente">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_1faN0unPEeyJPoXMdyxptw" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_1faN0enPEeyJPoXMdyxptw" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_1faN0-nPEeyJPoXMdyxptw" name="" content="" returnTypeFixed="true"/>
+          <messageContent xmi:type="expression:Operation" xmi:id="_dmlSAOtEEeyK5oHpc-knEQ">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_dmmgIetEEeyK5oHpc-knEQ" name="cliente" content="cliente" type="TYPE_VARIABLE">
+              <referencedElements xmi:type="process:Data" xmi:id="_eJM24OtEEeyK5oHpc-knEQ" name="cliente" dataType="_pm1dgenPEeyJPoXMdyxptw"/>
+            </leftOperand>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_dmmgIOtEEeyK5oHpc-knEQ" name="cliente" content="cliente"/>
+            <operator xmi:type="expression:Operator" xmi:id="_dmlSAetEEeyK5oHpc-knEQ" type="ASSIGNMENT"/>
+          </messageContent>
         </elements>
       </elements>
       <data xmi:type="process:Data" xmi:id="_tFEM0OnREeyJPoXMdyxptw" name="cliente" dataType="_pm1dgenPEeyJPoXMdyxptw">
