@@ -1,12 +1,8 @@
 {
   "modelVersion" : "2.2",
-  "id" : "elaborarPropostaTecnicaForm",
-  "name" : "elaborarPropostaTecnicaForm",
-<<<<<<< HEAD
-  "lastUpdate" : 1655131900696,
-=======
-  "lastUpdate" : 1654991441912,
->>>>>>> parent of a75d06f... Revert "Merge pull request #5 from Walsounet/joao"
+  "id" : "merda2funcional",
+  "name" : "merda2funcional",
+  "lastUpdate" : 1655130364089,
   "rows" : [
     [
       {
@@ -15,11 +11,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-<<<<<<< HEAD
-        "reference" : "67b01ccd-1a48-43db-88d0-c7667708a972",
-=======
-        "reference" : "e2288c01-c4b9-4bf0-8235-ae86b0d968e0",
->>>>>>> parent of a75d06f... Revert "Merge pull request #5 from Walsounet/joao"
+        "reference" : "db0ac5c1-ba5f-4833-96d0-1f00c84dbc67",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -58,11 +50,7 @@
                   "value" : 12
                 }
               },
-<<<<<<< HEAD
-              "reference" : "d575b623-946e-4821-9876-3c6d2bdc0b87",
-=======
-              "reference" : "ebb32d67-61f3-4137-83c0-c93c0d712900",
->>>>>>> parent of a75d06f... Revert "Merge pull request #5 from Walsounet/joao"
+              "reference" : "1e504d92-af61-42ed-bf4c-769a95fe86f1",
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -110,11 +98,7 @@
                   "value" : 12
                 }
               },
-<<<<<<< HEAD
-              "reference" : "ba589db5-efa4-4fa5-b16b-9a9facd09725",
-=======
-              "reference" : "4d976bb2-6dec-4325-8d9a-3820ffdf0242",
->>>>>>> parent of a75d06f... Revert "Merge pull request #5 from Walsounet/joao"
+              "reference" : "6a4b95f7-b6fa-4454-9e4a-7c5abbd00015",
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
@@ -129,22 +113,8 @@
         "dimension" : {
           "xs" : 12
         },
-<<<<<<< HEAD
         "propertyValues" : { },
-        "reference" : "3990dc2e-c477-49da-9948-ed7102e5a8d6",
-=======
-        "propertyValues" : {
-          "cssClasses" : {
-            "type" : "constant",
-            "value" : ""
-          },
-          "hidden" : {
-            "type" : "constant",
-            "value" : false
-          }
-        },
-        "reference" : "53eefc94-485b-495b-b570-090d4762b4a8",
->>>>>>> parent of a75d06f... Revert "Merge pull request #5 from Walsounet/joao"
+        "reference" : "f640565f-2500-422b-b8f9-bf1d6324a904",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -153,11 +123,7 @@
             "xs" : 12
           },
           "propertyValues" : { },
-<<<<<<< HEAD
-          "reference" : "a5de1885-4282-4b3f-bd92-7d977bf0e9f3",
-=======
-          "reference" : "dee62bbf-d92c-4a6b-b4d5-bad9e8b3b091",
->>>>>>> parent of a75d06f... Revert "Merge pull request #5 from Walsounet/joao"
+          "reference" : "472b54d2-be6e-4f27-81ab-0c08690e43ca",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
@@ -173,11 +139,7 @@
                 "propertyValues" : {
                   "hidden" : {
                     "type" : "constant",
-<<<<<<< HEAD
                     "value" : false
-=======
-                    "value" : true
->>>>>>> parent of a75d06f... Revert "Merge pull request #5 from Walsounet/joao"
                   },
                   "level" : {
                     "type" : "constant",
@@ -189,11 +151,7 @@
                   },
                   "text" : {
                     "type" : "interpolation",
-<<<<<<< HEAD
                     "value" : "Proposta Tecnica"
-=======
-                    "value" : "Necessidade"
->>>>>>> parent of a75d06f... Revert "Merge pull request #5 from Walsounet/joao"
                   },
                   "alignment" : {
                     "type" : "constant",
@@ -204,11 +162,7 @@
                     "value" : 12
                   }
                 },
-<<<<<<< HEAD
-                "reference" : "3787b35c-b405-41aa-81ad-a8e7104a6319",
-=======
-                "reference" : "59fcba2c-ed3d-4a61-b842-59b045373667",
->>>>>>> parent of a75d06f... Revert "Merge pull request #5 from Walsounet/joao"
+                "reference" : "ed37e4a7-e8bb-4ec0-af25-33cd02d45de9",
                 "hasValidationError" : false,
                 "id" : "pbTitle",
                 "description" : ""
@@ -225,20 +179,11 @@
                 },
                 "propertyValues" : {
                   "repeatedCollection" : {
-<<<<<<< HEAD
                     "type" : "variable"
                   },
                   "hidden" : {
                     "type" : "constant",
                     "value" : false
-=======
-                    "type" : "variable",
-                    "value" : ""
-                  },
-                  "hidden" : {
-                    "type" : "constant",
-                    "value" : true
->>>>>>> parent of a75d06f... Revert "Merge pull request #5 from Walsounet/joao"
                   },
                   "cssClasses" : {
                     "type" : "constant",
@@ -249,11 +194,7 @@
                     "value" : 12
                   }
                 },
-<<<<<<< HEAD
-                "reference" : "ab47f546-3eb4-412d-aa0b-f2e0757a5778",
-=======
-                "reference" : "ad5c8109-654a-4a94-8b83-9ff213777e04",
->>>>>>> parent of a75d06f... Revert "Merge pull request #5 from Walsounet/joao"
+                "reference" : "4541d1a5-3a84-4cec-930f-15979c503e12",
                 "hasValidationError" : false,
                 "id" : "pbContainer",
                 "rows" : [
@@ -267,58 +208,6 @@
                         "lg" : 12
                       },
                       "propertyValues" : {
-<<<<<<< HEAD
-=======
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "disabled" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Is Projeto"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        },
-                        "value" : {
-                          "type" : "variable",
-                          "value" : "necessidade.isProjeto"
-                        },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : false
-                        }
-                      },
-                      "reference" : "19fe6399-ec57-4b39-b98f-9f897d1ac179",
-                      "hasValidationError" : false,
-                      "id" : "pbCheckbox",
-                      "description" : ""
-                    }
-                  ],
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
->>>>>>> parent of a75d06f... Revert "Merge pull request #5 from Walsounet/joao"
                         "hidden" : {
                           "type" : "constant",
                           "value" : false
@@ -344,11 +233,7 @@
                           "value" : 12
                         }
                       },
-<<<<<<< HEAD
-                      "reference" : "5390305b-8463-48d4-988e-b8e51bc2ddd3",
-=======
-                      "reference" : "de47c6ac-7986-4710-931c-dcf3b66bbe84",
->>>>>>> parent of a75d06f... Revert "Merge pull request #5 from Walsounet/joao"
+                      "reference" : "1afb56ca-d1bf-49e5-b3db-55f47e5fe367",
                       "hasValidationError" : false,
                       "id" : "pbTitle",
                       "description" : ""
@@ -365,8 +250,7 @@
                       },
                       "propertyValues" : {
                         "repeatedCollection" : {
-                          "type" : "variable",
-                          "value" : ""
+                          "type" : "variable"
                         },
                         "hidden" : {
                           "type" : "constant",
@@ -381,11 +265,7 @@
                           "value" : 12
                         }
                       },
-<<<<<<< HEAD
-                      "reference" : "ace02a95-738c-4f09-ab44-5dea504adfb5",
-=======
-                      "reference" : "7b3f7b0a-112e-4f28-99de-9c06bf6ecc86",
->>>>>>> parent of a75d06f... Revert "Merge pull request #5 from Walsounet/joao"
+                      "reference" : "afee95d7-b43a-4bd1-adaf-7c9a2a4e35d8",
                       "hasValidationError" : false,
                       "id" : "pbContainer",
                       "rows" : [
@@ -399,70 +279,6 @@
                               "lg" : 12
                             },
                             "propertyValues" : {
-<<<<<<< HEAD
-=======
-                              "labelHidden" : {
-                                "type" : "constant",
-                                "value" : false
-                              },
-                              "hidden" : {
-                                "type" : "constant",
-                                "value" : false
-                              },
-                              "labelPosition" : {
-                                "type" : "constant",
-                                "value" : "top"
-                              },
-                              "cssClasses" : {
-                                "type" : "constant",
-                                "value" : ""
-                              },
-                              "availableValues" : {
-                                "type" : "expression",
-                                "value" : "cliente_query"
-                              },
-                              "labelWidth" : {
-                                "type" : "constant",
-                                "value" : 1
-                              },
-                              "label" : {
-                                "type" : "interpolation",
-                                "value" : "Cliente Associado"
-                              },
-                              "placeholder" : {
-                                "type" : "constant",
-                                "value" : "Select a Cliente Associado"
-                              },
-                              "dimension" : {
-                                "type" : "constant",
-                                "value" : 12
-                              },
-                              "value" : {
-                                "type" : "variable",
-                                "value" : "necessidade_clienteAssociado"
-                              },
-                              "required" : {
-                                "type" : "constant",
-                                "value" : false
-                              }
-                            },
-                            "reference" : "eea01d3d-1c90-43e2-b4ae-a37a8555a1e9",
-                            "hasValidationError" : false,
-                            "id" : "pbSelect",
-                            "description" : ""
-                          }
-                        ],
-                        [
-                          {
-                            "type" : "component",
-                            "dimension" : {
-                              "md" : 12,
-                              "sm" : 12,
-                              "xs" : 12,
-                              "lg" : 12
-                            },
-                            "propertyValues" : {
->>>>>>> parent of a75d06f... Revert "Merge pull request #5 from Walsounet/joao"
                               "allowHtml" : {
                                 "type" : "constant",
                                 "value" : true
@@ -473,11 +289,7 @@
                               },
                               "hidden" : {
                                 "type" : "expression",
-<<<<<<< HEAD
                                 "value" : "!propostaTecnica_clienteAssociado.nome"
-=======
-                                "value" : "!necessidade_clienteAssociado.nome"
->>>>>>> parent of a75d06f... Revert "Merge pull request #5 from Walsounet/joao"
                               },
                               "cssClasses" : {
                                 "type" : "constant",
@@ -489,11 +301,7 @@
                               },
                               "text" : {
                                 "type" : "interpolation",
-<<<<<<< HEAD
                                 "value" : "{{propostaTecnica_clienteAssociado.nome}}"
-=======
-                                "value" : "{{necessidade_clienteAssociado.nome}}"
->>>>>>> parent of a75d06f... Revert "Merge pull request #5 from Walsounet/joao"
                               },
                               "alignment" : {
                                 "type" : "constant",
@@ -502,27 +310,9 @@
                               "dimension" : {
                                 "type" : "constant",
                                 "value" : 12
-<<<<<<< HEAD
-                              },
-                              "labelPosition" : {
-                                "type" : "constant",
-                                "value" : "top"
-                              },
-                              "labelWidth" : {
-                                "type" : "constant",
-                                "value" : 4
-                              },
-                              "allowHTML" : {
-                                "type" : "constant",
-                                "value" : true
                               }
                             },
-                            "reference" : "4227168f-6d69-4b42-a6ce-05307fbd660d",
-=======
-                              }
-                            },
-                            "reference" : "b11ba54e-5b80-4803-bca2-781346bbf8dc",
->>>>>>> parent of a75d06f... Revert "Merge pull request #5 from Walsounet/joao"
+                            "reference" : "cc3f40f5-c741-4193-bce2-e010362f84b5",
                             "hasValidationError" : false,
                             "id" : "pbText",
                             "description" : ""
@@ -548,11 +338,7 @@
                               },
                               "hidden" : {
                                 "type" : "expression",
-<<<<<<< HEAD
                                 "value" : "!propostaTecnica_clienteAssociado.contacto"
-=======
-                                "value" : "!necessidade_clienteAssociado.contacto"
->>>>>>> parent of a75d06f... Revert "Merge pull request #5 from Walsounet/joao"
                               },
                               "cssClasses" : {
                                 "type" : "constant",
@@ -564,11 +350,7 @@
                               },
                               "text" : {
                                 "type" : "interpolation",
-<<<<<<< HEAD
                                 "value" : "{{propostaTecnica_clienteAssociado.contacto}}"
-=======
-                                "value" : "{{necessidade_clienteAssociado.contacto}}"
->>>>>>> parent of a75d06f... Revert "Merge pull request #5 from Walsounet/joao"
                               },
                               "alignment" : {
                                 "type" : "constant",
@@ -579,11 +361,7 @@
                                 "value" : 12
                               }
                             },
-<<<<<<< HEAD
-                            "reference" : "aa282113-e76f-4512-9463-f6684a714e1a",
-=======
-                            "reference" : "fc374198-2ce0-4024-896b-26967adbf060",
->>>>>>> parent of a75d06f... Revert "Merge pull request #5 from Walsounet/joao"
+                            "reference" : "1d9248d0-8f14-4beb-8cd2-4c463d3bd71a",
                             "hasValidationError" : false,
                             "id" : "pbText",
                             "description" : ""
@@ -608,11 +386,7 @@
                         },
                         "hidden" : {
                           "type" : "expression",
-<<<<<<< HEAD
                           "value" : "!propostaTecnica.isProjeto"
-=======
-                          "value" : "!necessidade.isProjetoStandard"
->>>>>>> parent of a75d06f... Revert "Merge pull request #5 from Walsounet/joao"
                         },
                         "cssClasses" : {
                           "type" : "constant",
@@ -624,201 +398,6 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-<<<<<<< HEAD
-=======
-                          "value" : "Is Projeto Standard"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        },
-                        "value" : {
-                          "type" : "variable",
-                          "value" : "necessidade.isProjetoStandard"
-                        }
-                      },
-                      "reference" : "1113e541-3794-4c0e-a43f-b6932668de8d",
-                      "hasValidationError" : false,
-                      "id" : "pbCheckbox",
-                      "description" : ""
-                    }
-                  ]
-                ]
-              }
-            ],
-            [
-              {
-                "type" : "component",
-                "dimension" : {
-                  "md" : 12,
-                  "sm" : 12,
-                  "xs" : 12,
-                  "lg" : 12
-                },
-                "propertyValues" : {
-                  "hidden" : {
-                    "type" : "constant",
-                    "value" : false
-                  },
-                  "level" : {
-                    "type" : "constant",
-                    "value" : "Level 4"
-                  },
-                  "cssClasses" : {
-                    "type" : "constant",
-                    "value" : ""
-                  },
-                  "text" : {
-                    "type" : "interpolation",
-                    "value" : "Proposta Tecnica"
-                  },
-                  "alignment" : {
-                    "type" : "constant",
-                    "value" : "left"
-                  },
-                  "dimension" : {
-                    "type" : "constant",
-                    "value" : 12
-                  }
-                },
-                "reference" : "0eff1e50-d7e5-42b9-8657-edc5e09f4e31",
-                "hasValidationError" : false,
-                "id" : "pbTitle",
-                "description" : ""
-              }
-            ],
-            [
-              {
-                "type" : "container",
-                "dimension" : {
-                  "md" : 12,
-                  "sm" : 12,
-                  "xs" : 12,
-                  "lg" : 12
-                },
-                "propertyValues" : {
-                  "repeatedCollection" : {
-                    "type" : "variable",
-                    "value" : ""
-                  },
-                  "hidden" : {
-                    "type" : "constant",
-                    "value" : false
-                  },
-                  "cssClasses" : {
-                    "type" : "constant",
-                    "value" : ""
-                  },
-                  "dimension" : {
-                    "type" : "constant",
-                    "value" : 12
-                  }
-                },
-                "reference" : "f2552824-0fd1-4e35-ab91-7df5393aa505",
-                "hasValidationError" : false,
-                "id" : "pbContainer",
-                "rows" : [
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "labelPosition" : {
-                          "type" : "constant",
-                          "value" : "top"
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "availableValues" : {
-                          "type" : "expression",
-                          "value" : "cliente_query"
-                        },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 1
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Cliente Associado"
-                        },
-                        "placeholder" : {
-                          "type" : "constant",
-                          "value" : "Select a Cliente Associado"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        },
-                        "value" : {
-                          "type" : "variable",
-                          "value" : "formInput.propostaTecnicaInput.clienteAssociado"
-                        },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "disabled" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "displayedKey" : {
-                          "type" : "constant",
-                          "value" : "nome"
-                        },
-                        "returnedKey" : {
-                          "type" : "constant"
-                        }
-                      },
-                      "reference" : "708cdab0-cb3e-416d-a95e-b71b5638c295",
-                      "hasValidationError" : false,
-                      "id" : "pbSelect",
-                      "description" : ""
-                    }
-                  ],
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "disabled" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "label" : {
-                          "type" : "interpolation",
->>>>>>> parent of a75d06f... Revert "Merge pull request #5 from Walsounet/joao"
                           "value" : "Is Projeto"
                         },
                         "dimension" : {
@@ -827,22 +406,10 @@
                         },
                         "value" : {
                           "type" : "variable",
-<<<<<<< HEAD
                           "value" : "propostaTecnica.isProjeto"
-=======
-                          "value" : "formInput.propostaTecnicaInput.isProjeto"
->>>>>>> parent of a75d06f... Revert "Merge pull request #5 from Walsounet/joao"
-                        },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : false
                         }
                       },
-<<<<<<< HEAD
-                      "reference" : "e26c7404-0b88-4d37-bba0-1f1461ed4ec0",
-=======
-                      "reference" : "c22890ac-01d6-4d6c-bfd6-dfe7f308e1e1",
->>>>>>> parent of a75d06f... Revert "Merge pull request #5 from Walsounet/joao"
+                      "reference" : "b2f398c1-a876-43e5-8b92-3098afad60e9",
                       "hasValidationError" : false,
                       "id" : "pbCheckbox",
                       "description" : ""
@@ -899,42 +466,14 @@
                         },
                         "value" : {
                           "type" : "variable",
-<<<<<<< HEAD
                           "value" : "propostaTecnica.descricao"
-=======
-                          "value" : "formInput.propostaTecnicaInput.descricao"
->>>>>>> parent of a75d06f... Revert "Merge pull request #5 from Walsounet/joao"
                         },
                         "required" : {
                           "type" : "constant",
                           "value" : false
-<<<<<<< HEAD
                         }
                       },
-                      "reference" : "1a157bbe-4aff-4622-adf2-c20ea5e55657",
-=======
-                        },
-                        "minLength" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "maxLength" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "min" : {
-                          "type" : "constant"
-                        },
-                        "max" : {
-                          "type" : "constant"
-                        },
-                        "step" : {
-                          "type" : "constant",
-                          "value" : 1
-                        }
-                      },
-                      "reference" : "829838d2-0dd2-43f4-a63b-7d64e73e588f",
->>>>>>> parent of a75d06f... Revert "Merge pull request #5 from Walsounet/joao"
+                      "reference" : "57cd36be-8103-4bd0-aabf-8f2dcf59490a",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
@@ -1014,11 +553,7 @@
                     "value" : 12
                   }
                 },
-<<<<<<< HEAD
-                "reference" : "83fdef3a-680e-4127-8a9a-17a488088598",
-=======
-                "reference" : "ce0f76c8-9f1c-4a7b-b80d-620bea43b1ff",
->>>>>>> parent of a75d06f... Revert "Merge pull request #5 from Walsounet/joao"
+                "reference" : "1a56bd8b-5e2d-4d97-b02a-1e48b3388ae9",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -1070,11 +605,7 @@
                     "value" : 12
                   }
                 },
-<<<<<<< HEAD
-                "reference" : "b024bd93-39b7-471b-8446-617dc270f9dd",
-=======
-                "reference" : "31c4b9a3-0d08-446a-8f78-c0e339188ca7",
->>>>>>> parent of a75d06f... Revert "Merge pull request #5 from Walsounet/joao"
+                "reference" : "17d32a54-6490-40fe-9e41-0bf133eb4cc3",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -1087,44 +618,22 @@
   ],
   "assets" : [
     {
-<<<<<<< HEAD
-      "id" : "b825bddd-ce47-4d62-b3d2-bd1866f1e84a",
-      "name" : "style.css",
-      "type" : "css",
-=======
-      "id" : "106a61c3-ba71-480d-92ae-a155bc1dec4c",
+      "id" : "d9329faf-ae5c-4270-a8bc-138f5b31dc26",
       "name" : "localization.json",
       "type" : "json",
->>>>>>> parent of a75d06f... Revert "Merge pull request #5 from Walsounet/joao"
       "order" : 0,
       "external" : false
     },
     {
-<<<<<<< HEAD
-      "id" : "f3d9012f-dd65-413b-9dca-6ed6b8b44746",
-      "name" : "localization.json",
-      "type" : "json",
-=======
-      "id" : "40617037-90ef-4b39-bbb4-681d293b9697",
+      "id" : "d4032e88-7978-4ea9-a0c4-94284db6da9a",
       "name" : "style.css",
       "type" : "css",
->>>>>>> parent of a75d06f... Revert "Merge pull request #5 from Walsounet/joao"
       "order" : 0,
       "external" : false
     }
   ],
   "inactiveAssets" : [ ],
   "variables" : {
-<<<<<<< HEAD
-=======
-    "necessidade" : {
-      "type" : "url",
-      "value" : [
-        "../{{context.necessidade_ref.link}}"
-      ],
-      "exposed" : false
-    },
->>>>>>> parent of a75d06f... Revert "Merge pull request #5 from Walsounet/joao"
     "task" : {
       "type" : "url",
       "value" : [
@@ -1132,24 +641,6 @@
       ],
       "exposed" : false
     },
-<<<<<<< HEAD
-=======
-    "formInput" : {
-      "type" : "json",
-      "value" : [
-        "{",
-        "  \"propostaTecnicaInput\" : {",
-        "    \"clienteAssociado\" : {",
-        "      \"persistenceId_string\" : \"\"",
-        "    },",
-        "    \"isProjeto\" : false,",
-        "    \"descricao\" : \"\"",
-        "  }",
-        "}"
-      ],
-      "exposed" : false
-    },
->>>>>>> parent of a75d06f... Revert "Merge pull request #5 from Walsounet/joao"
     "submit_errors_list" : {
       "type" : "expression",
       "value" : [
@@ -1165,26 +656,16 @@
       ],
       "exposed" : false
     },
-<<<<<<< HEAD
     "propostaTecnica" : {
       "type" : "url",
       "value" : [
         "../{{context.propostaTecnica_ref.link}}"
       ],
-=======
-    "cliente_query" : {
-      "type" : "url",
-      "value" : [
-        "../API/bdm/businessData/com.company.model.Cliente?q=findByPersistenceId&p=0&c=99&f=persistenceId={{necessidade_clienteAssociado.persistenceId}}"
-      ],
-      "advancedOptions" : { },
->>>>>>> parent of a75d06f... Revert "Merge pull request #5 from Walsounet/joao"
       "exposed" : false
     },
     "formOutput" : {
       "type" : "expression",
       "value" : [
-<<<<<<< HEAD
         "if( $data.propostaTecnica && $data.propostaTecnica_clienteAssociado ){",
         "\t//attach lazy references variables to parent variables",
         "\t$data.propostaTecnica.clienteAssociado = $data.propostaTecnica_clienteAssociado;",
@@ -1193,20 +674,6 @@
         "\t\tpropostaTecnicaInput: {",
         "\t\t\tdescricao: $data.propostaTecnica.descricao !== undefined ? $data.propostaTecnica.descricao : null",
         "\t\t}",
-=======
-        "if( $data.necessidade && $data.necessidade_clienteAssociado ){",
-        "\t//attach lazy references variables to parent variables",
-        "\t$data.necessidade.clienteAssociado = $data.necessidade_clienteAssociado;",
-        "\treturn {",
-        "\t\t//map necessidade variable to expected task contract input",
-        "\t\tnecessidadeInput: {",
-        "\t\t\tisProjeto: $data.necessidade.isProjeto !== undefined ? $data.necessidade.isProjeto : null,",
-        "\t\t\tclienteAssociado: $data.necessidade.clienteAssociado ? {",
-        "\t\t\t\tpersistenceId_string: $data.necessidade.clienteAssociado.persistenceId_string !== undefined ? $data.necessidade.clienteAssociado.persistenceId_string : null",
-        "\t\t\t} : null",
-        "\t\t},",
-        "\t\tpropostaTecnicaInput: $data.formInput.propostaTecnicaInput",
->>>>>>> parent of a75d06f... Revert "Merge pull request #5 from Walsounet/joao"
         "\t}",
         "}"
       ],
@@ -1219,7 +686,6 @@
       ],
       "exposed" : false
     },
-<<<<<<< HEAD
     "taskId" : {
       "type" : "urlparameter",
       "value" : [
@@ -1231,29 +697,12 @@
       "type" : "url",
       "value" : [
         "{{propostaTecnica|lazyRef:'clienteAssociado'}}"
-=======
-    "necessidade_clienteAssociado" : {
-      "type" : "url",
-      "value" : [
-        "{{necessidade|lazyRef:'clienteAssociado'}}"
-      ],
-      "exposed" : false
-    },
-    "taskId" : {
-      "type" : "urlparameter",
-      "value" : [
-        "id"
->>>>>>> parent of a75d06f... Revert "Merge pull request #5 from Walsounet/joao"
       ],
       "exposed" : false
     }
   },
   "hasValidationError" : false,
-<<<<<<< HEAD
-  "uuid" : "316aff14-248c-469a-99ff-94050ca242a6",
-=======
-  "uuid" : "7aff225e-ad82-45ca-8289-6c4e6216261d",
->>>>>>> parent of a75d06f... Revert "Merge pull request #5 from Walsounet/joao"
+  "uuid" : "95291034-f3ab-4237-a109-bfc7de844f35",
   "type" : "form",
   "description" : "Page generated with Bonita UI designer"
 }
