@@ -224,24 +224,6 @@
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_fTop5Oj4Eey1Rbyb9InxGg" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_fTop5ej4Eey1Rbyb9InxGg" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_fTop5uj4Eey1Rbyb9InxGg" name="" content="" returnTypeFixed="true"/>
-          <messageContent xmi:type="expression:Operation" xmi:id="_Fj09sOrCEeyW-4HAKz_H5Q">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_Fj2L0erCEeyW-4HAKz_H5Q" name="propostaTecnica" content="propostaTecnica" type="TYPE_VARIABLE" returnType="com.company.model.PropostaTecnica">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_GisZsOrCEeyW-4HAKz_H5Q" name="propostaTecnica" dataType="_fToqFOj4Eey1Rbyb9InxGg" className="com.company.model.PropostaTecnica"/>
-            </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_Fj2L0OrCEeyW-4HAKz_H5Q" name="isProjeto" content="isProjeto"/>
-            <operator xmi:type="expression:Operator" xmi:id="_Fj09serCEeyW-4HAKz_H5Q" type="JAVA_METHOD" expression="setIsProjeto">
-              <inputTypes>java.lang.Boolean</inputTypes>
-            </operator>
-          </messageContent>
-          <messageContent xmi:type="expression:Operation" xmi:id="_NBoMAOrCEeyW-4HAKz_H5Q">
-            <leftOperand xmi:type="expression:Expression" xmi:id="_NBozEerCEeyW-4HAKz_H5Q" name="propostaTecnica" content="propostaTecnica" type="TYPE_VARIABLE" returnType="com.company.model.PropostaTecnica">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_NtEVsOrCEeyW-4HAKz_H5Q" name="propostaTecnica" dataType="_fToqFOj4Eey1Rbyb9InxGg" className="com.company.model.PropostaTecnica"/>
-            </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_NBozEOrCEeyW-4HAKz_H5Q" name="descricao" content="descricao"/>
-            <operator xmi:type="expression:Operator" xmi:id="_NBoMAerCEeyW-4HAKz_H5Q" type="JAVA_METHOD" expression="setDescricao">
-              <inputTypes>java.lang.String</inputTypes>
-            </operator>
-          </messageContent>
           <messageContent xmi:type="expression:Operation" xmi:id="_LUrskOrDEeyW-4HAKz_H5Q">
             <leftOperand xmi:type="expression:Expression" xmi:id="_LUuI0erDEeyW-4HAKz_H5Q" name="cliente" content="cliente" type="TYPE_VARIABLE" returnType="com.company.model.Cliente">
               <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_L5g38OrDEeyW-4HAKz_H5Q" name="cliente" dataType="_fToqFOj4Eey1Rbyb9InxGg" className="com.company.model.Cliente"/>
