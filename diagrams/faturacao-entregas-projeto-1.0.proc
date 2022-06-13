@@ -120,7 +120,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_QsE0WOZrEeydL51yHrjXaw" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_QsE0V-ZrEeydL51yHrjXaw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:IntermediateCatchMessageEvent" xmi:id="_TfWAcOs9EeyxHaVj9Q9pKw" name="ReceberPrazos" outgoing="__57-kOslEeyTVpSIN_3rAQ" incoming="_UERfMOZrEeydL51yHrjXaw" event="Prazos">
+        <elements xmi:type="process:IntermediateCatchMessageEvent" xmi:id="_TfWAcOs9EeyxHaVj9Q9pKw" name="ReceberPrazos" outgoing="__57-kOslEeyTVpSIN_3rAQ" incoming="_UERfMOZrEeydL51yHrjXaw" event="prazos">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="__5hH0uslEeyTVpSIN_3rAQ" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="__5hH0eslEeyTVpSIN_3rAQ" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="__5hH0-slEeyTVpSIN_3rAQ" name="" content="" returnTypeFixed="true"/>
@@ -129,7 +129,7 @@
             <leftOperand xmi:type="expression:Expression" xmi:id="_cDnHkes9EeyxHaVj9Q9pKw" name="fatura_validada" content="fatura_validada" type="TYPE_VARIABLE" returnType="com.company.model.Faturas">
               <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_clH5MOs9EeyxHaVj9Q9pKw" name="fatura_validada" dataType="_G_pLdOZrEeydL51yHrjXaw" className="com.company.model.Faturas"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_cDnHkOs9EeyxHaVj9Q9pKw" name="datainicio" content="datainicio"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_cDnHkOs9EeyxHaVj9Q9pKw" name="'datainicio'" content="'datainicio'" type="MESSAGE_ID_TYPE"/>
             <operator xmi:type="expression:Operator" xmi:id="_cDl5ces9EeyxHaVj9Q9pKw" type="JAVA_METHOD" expression="setDatainicio">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
@@ -138,7 +138,7 @@
             <leftOperand xmi:type="expression:Expression" xmi:id="_fGitEes9EeyxHaVj9Q9pKw" name="fatura_validada" content="fatura_validada" type="TYPE_VARIABLE" returnType="com.company.model.Faturas">
               <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_fhb5UOs9EeyxHaVj9Q9pKw" name="fatura_validada" dataType="_G_pLdOZrEeydL51yHrjXaw" className="com.company.model.Faturas"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_fGitEOs9EeyxHaVj9Q9pKw" name="datafim" content="datafim"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_fGitEOs9EeyxHaVj9Q9pKw" name="'datafim'" content="'datafim'" type="MESSAGE_ID_TYPE"/>
             <operator xmi:type="expression:Operator" xmi:id="_fGhe8es9EeyxHaVj9Q9pKw" type="JAVA_METHOD" expression="setDatafim">
               <inputTypes>java.lang.String</inputTypes>
             </operator>
@@ -152,7 +152,7 @@
         <defaultValue xmi:type="expression:Expression" xmi:id="_Wue38esnEeyTVpSIN_3rAQ" name="" content="" interpreter="GROOVY"/>
       </data>
       <formMapping xmi:type="process:FormMapping" xmi:id="_G_pLVOZrEeydL51yHrjXaw">
-        <targetForm xmi:type="expression:Expression" xmi:id="_YvlngOs8EeyxHaVj9Q9pKw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+        <targetForm xmi:type="expression:Expression" xmi:id="_XdsIgOtBEeyK5oHpc-knEQ" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
       </formMapping>
       <overviewFormMapping xmi:type="process:FormMapping" xmi:id="_G_pLVuZrEeydL51yHrjXaw">
         <targetForm xmi:type="expression:Expression" xmi:id="_G_pLV-ZrEeydL51yHrjXaw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>

@@ -19,13 +19,13 @@
           <stepSummary xmi:type="expression:Expression" xmi:id="_f7GDs-nCEeyJPoXMdyxptw" name="" content="" returnTypeFixed="true"/>
           <operations xmi:type="expression:Operation" xmi:id="_IEiTMur_EeyvJ6vMsMs74g">
             <leftOperand xmi:type="expression:Expression" xmi:id="_IEiTM-r_EeyvJ6vMsMs74g" name="finalizarProjeto" content="finalizarProjeto" type="TYPE_VARIABLE" returnType="com.company.model.FinalizarProjeto">
-              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_IEiTNOr_EeyvJ6vMsMs74g" name="finalizarProjeto" dataType="_gOsnPunAEeyJPoXMdyxptw" className="com.company.model.FinalizarProjeto"/>
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="__iNZEOs7EeyxHaVj9Q9pKw" name="finalizarProjeto" dataType="_gOsnPunAEeyJPoXMdyxptw" className="com.company.model.FinalizarProjeto"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_IEiTNer_EeyvJ6vMsMs74g" name="finalizarProjetoInput.desvios" content="finalizarProjetoInput?.desvios" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-              <referencedElements xmi:type="process:ContractInput" xmi:id="_IEiTNur_EeyvJ6vMsMs74g" name="finalizarProjetoInput" type="COMPLEX" createMode="false"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_IEiTNer_EeyvJ6vMsMs74g" name="finalizarProjetoInput.desvios" content="finalizarProjeto.desvios" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.util.List">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_B_UUsOs8EeyxHaVj9Q9pKw" name="finalizarProjeto" dataType="_gOsnPunAEeyJPoXMdyxptw" className="com.company.model.FinalizarProjeto"/>
             </rightOperand>
             <operator xmi:type="expression:Operator" xmi:id="_IEiTN-r_EeyvJ6vMsMs74g" type="JAVA_METHOD" expression="setDesvios">
-              <inputTypes>java.lang.String</inputTypes>
+              <inputTypes>java.util.List</inputTypes>
             </operator>
           </operations>
           <loopCondition xmi:type="expression:Expression" xmi:id="_f7GDtOnCEeyJPoXMdyxptw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
@@ -157,27 +157,27 @@
             </operator>
           </messageContent>
         </elements>
-        <elements xmi:type="process:IntermediateThrowMessageEvent" xmi:id="_9Q0x0OsmEeyTVpSIN_3rAQ" name="Enviar prazos">
+        <elements xmi:type="process:IntermediateThrowMessageEvent" xmi:id="_9Q0x0OsmEeyTVpSIN_3rAQ" name="Enviarprazos">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_9Q1Y4esmEeyTVpSIN_3rAQ" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_9Q1Y4OsmEeyTVpSIN_3rAQ" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_9Q1Y4usmEeyTVpSIN_3rAQ" name="" content="" returnTypeFixed="true"/>
-          <events xmi:type="process:Message" xmi:id="_MHgSMOsnEeyTVpSIN_3rAQ" name="Prazos">
-            <correlation xmi:type="process:Correlation" xmi:id="_MHgSMesnEeyTVpSIN_3rAQ">
-              <correlationAssociation xmi:type="expression:TableExpression" xmi:id="_MHgSMusnEeyTVpSIN_3rAQ"/>
+          <events xmi:type="process:Message" xmi:id="_C32QcOtCEeyK5oHpc-knEQ" name="prazos">
+            <correlation xmi:type="process:Correlation" xmi:id="_C32QcetCEeyK5oHpc-knEQ">
+              <correlationAssociation xmi:type="expression:TableExpression" xmi:id="_C32QcutCEeyK5oHpc-knEQ"/>
             </correlation>
-            <targetProcessExpression xmi:type="expression:Expression" xmi:id="_MHgSM-snEeyTVpSIN_3rAQ" name="Faturação de entregas de projeto" content="Faturação de entregas de projeto" returnTypeFixed="true"/>
-            <targetElementExpression xmi:type="expression:Expression" xmi:id="_MHgSNOsnEeyTVpSIN_3rAQ" name="ReceberPrazos" content="ReceberPrazos" returnTypeFixed="true"/>
-            <messageContent xmi:type="expression:TableExpression" xmi:id="_MHgSNesnEeyTVpSIN_3rAQ">
-              <expressions xmi:type="expression:ListExpression" xmi:id="_MHgSNusnEeyTVpSIN_3rAQ">
-                <expressions xmi:type="expression:Expression" xmi:id="_MHgSN-snEeyTVpSIN_3rAQ" name="datainicio" content="datainicio" returnTypeFixed="true"/>
-                <expressions xmi:type="expression:Expression" xmi:id="_MHgSOOsnEeyTVpSIN_3rAQ" name="newScript()" content="finalizarProjeto.data_inicio" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-                  <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_MHgSOesnEeyTVpSIN_3rAQ" name="finalizarProjeto" dataType="_gOsnPunAEeyJPoXMdyxptw" className="com.company.model.FinalizarProjeto"/>
+            <targetProcessExpression xmi:type="expression:Expression" xmi:id="_C32Qc-tCEeyK5oHpc-knEQ" name="Faturação de entregas de projeto" content="Faturação de entregas de projeto" returnTypeFixed="true"/>
+            <targetElementExpression xmi:type="expression:Expression" xmi:id="_C32QdOtCEeyK5oHpc-knEQ" name="ReceberPrazos" content="ReceberPrazos" returnTypeFixed="true"/>
+            <messageContent xmi:type="expression:TableExpression" xmi:id="_C32QdetCEeyK5oHpc-knEQ">
+              <expressions xmi:type="expression:ListExpression" xmi:id="_C32QdutCEeyK5oHpc-knEQ">
+                <expressions xmi:type="expression:Expression" xmi:id="_C32Qd-tCEeyK5oHpc-knEQ" name="datainicio" content="datainicio" returnTypeFixed="true"/>
+                <expressions xmi:type="expression:Expression" xmi:id="_C32QeOtCEeyK5oHpc-knEQ" name="newScript()" content="finalizarProjeto.data_inicio" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+                  <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_C32QeetCEeyK5oHpc-knEQ" name="finalizarProjeto" dataType="_gOsnPunAEeyJPoXMdyxptw" className="com.company.model.FinalizarProjeto"/>
                 </expressions>
               </expressions>
-              <expressions xmi:type="expression:ListExpression" xmi:id="_MHgSOusnEeyTVpSIN_3rAQ">
-                <expressions xmi:type="expression:Expression" xmi:id="_MHgSO-snEeyTVpSIN_3rAQ" name="datafim" content="datafim" returnTypeFixed="true"/>
-                <expressions xmi:type="expression:Expression" xmi:id="_MHgSPOsnEeyTVpSIN_3rAQ" name="newScript()" content="finalizarProjeto.data_fim" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-                  <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_MHgSPesnEeyTVpSIN_3rAQ" name="finalizarProjeto" dataType="_gOsnPunAEeyJPoXMdyxptw" className="com.company.model.FinalizarProjeto"/>
+              <expressions xmi:type="expression:ListExpression" xmi:id="_C32QeutCEeyK5oHpc-knEQ">
+                <expressions xmi:type="expression:Expression" xmi:id="_C32Qe-tCEeyK5oHpc-knEQ" name="datafim" content="datafim" returnTypeFixed="true"/>
+                <expressions xmi:type="expression:Expression" xmi:id="_C32QfOtCEeyK5oHpc-knEQ" name="newScript()" content="finalizarProjeto.data_fim" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+                  <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_C32QfetCEeyK5oHpc-knEQ" name="finalizarProjeto" dataType="_gOsnPunAEeyJPoXMdyxptw" className="com.company.model.FinalizarProjeto"/>
                 </expressions>
               </expressions>
             </messageContent>
@@ -194,7 +194,7 @@
         <defaultValue xmi:type="expression:Expression" xmi:id="_H1jUoesCEeyvJ6vMsMs74g" name="" content="" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Object"/>
       </data>
       <formMapping xmi:type="process:FormMapping" xmi:id="_gOsnHunAEeyJPoXMdyxptw">
-        <targetForm xmi:type="expression:Expression" xmi:id="_YRgrkOsUEeyrkKmwCtMtVA" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+        <targetForm xmi:type="expression:Expression" xmi:id="_EzK8YOs8EeyxHaVj9Q9pKw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
       </formMapping>
       <overviewFormMapping xmi:type="process:FormMapping" xmi:id="_gOsnIOnAEeyJPoXMdyxptw">
         <targetForm xmi:type="expression:Expression" xmi:id="_gOsnIenAEeyJPoXMdyxptw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
